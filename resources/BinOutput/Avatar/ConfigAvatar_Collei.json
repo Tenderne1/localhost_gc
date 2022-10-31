@@ -5,8 +5,8 @@
             "FGKBBEGGKCB": "EffectMesh"
         },
         "mass": 10.0,
-        "secondHeight": 1.5485999584197998,
-        "OPCPJOJAOOE": 1.5299999713897705,
+        "secondHeight": 1.7827999591827393,
+        "OPCPJOJAOOE": 1.7300000190734863,
         "affectedByWorld": true,
         "checkInSurface": true
     },
@@ -46,11 +46,17 @@
     },
     "combat": {
         "property": {
-            "endureType": "Avatar_Sword",
+            "endureType": "Avatar_Bow",
             "w": 75.0
         },
         "beHit": {
             "hitBloodEffect": ""
+        },
+        "combatLock": {
+            "lockShape": "CircleLockEnemyClose",
+            "lockWeightYaxisParam": 0.20000000298023224,
+            "lockWeightYaxisThreshold": 4.0,
+            "lockType": "Avatar&Monster_Lv4"
         },
         "die": {
             "hasAnimatorDie": true,
@@ -60,313 +66,201 @@
             "dieShaderData": "AvatarDie",
             "useRagDoll": true,
             "ragDollDieEndTimeDelay": 0.4000000059604645
-        },
-        "animEvents": {
-            "ATK01": {
-                "attackPattern": {
-                    "$type": "ConfigAttackCircle",
-                    "lifeTime": "TriggerNoRepeat",
-                    "radius": 1.5
-                },
-                "attackInfo": {
-                    "attackTag": "NormalAttack_01",
-                    "attenuationTag": "",
-                    "attenuationGroup": "default",
-                    "attackProperty": {
-                        "bonusCriticalHurt": 0.27000001072883606,
-                        "damagePercentageRatio": 0.0,
-                        "elementDurability": 20.0,
-                        "overrideByWeapon": true,
-                        "strikeType": "Slash",
-                        "attackType": "Melee",
-                        "bonusCritical": 0.0,
-                        "bonusCriticalHurt": 0.0
-                    },
-                    "hitPattern": {
-                        "onHitEffectName": "default",
-                        "hitLevel": "Heavy",
-                        "HPOPMELEPEB": 240.0,
-                        "hitImpulseY": 0.0,
-                        "hitImpulseType": "",
-                        "hitHaltTime": 0.029999999329447746,
-                        "hitHaltTimeScale": 0.009999999776482582,
-                        "canBeDefenceHalt": true
-                    },
-                    "cameraShake": {
-                        "shakeRange": 0.05999999865889549,
-                        "shakeTime": 0.09000000357627869
-                    }
-                }
-            },
-            "ATK02": {
-                "attackPattern": {
-                    "$type": "ConfigAttackCircle",
-                    "lifeTime": "TriggerNoRepeat",
-                    "BDAPFCGNBKA": 150.0,
-                    "radius": 2.200000047683716
-                },
-                "attackInfo": {
-                    "attackTag": "NormalAttack_02",
-                    "attenuationTag": "",
-                    "attenuationGroup": "default",
-                    "attackProperty": {
-                        "bonusCriticalHurt": 0.18000000715255737,
-                        "damagePercentageRatio": 0.0,
-                        "elementDurability": 20.0,
-                        "overrideByWeapon": true,
-                        "strikeType": "Slash",
-                        "attackType": "Melee",
-                        "bonusCritical": 0.0,
-                        "bonusCriticalHurt": 0.0
-                    },
-                    "hitPattern": {
-                        "onHitEffectName": "default",
-                        "hitLevel": "Heavy",
-                        "HPOPMELEPEB": 240.0,
-                        "hitImpulseY": 0.0,
-                        "hitImpulseType": "",
-                        "hitHaltTime": 0.029999999329447746,
-                        "hitHaltTimeScale": 0.009999999776482582,
-                        "canBeDefenceHalt": true
-                    },
-                    "cameraShake": {
-                        "shakeRange": 0.05999999865889549,
-                        "shakeTime": 0.09000000357627869
-                    }
-                }
-            },
-            "ATK03": {
-                "attackPattern": {
-                    "$type": "ConfigAttackCircle",
-                    "lifeTime": "TriggerNoRepeat",
-                    "BDAPFCGNBKA": 30.0,
-                    "radius": 2.799999952316284
-                },
-                "attackInfo": {
-                    "attackTag": "NormalAttack_03",
-                    "attenuationTag": "",
-                    "attenuationGroup": "default",
-                    "attackProperty": {
-                        "bonusCriticalHurt": 0.4300000071525574,
-                        "damagePercentageRatio": 0.0,
-                        "elementDurability": 20.0,
-                        "overrideByWeapon": true,
-                        "strikeType": "Slash",
-                        "attackType": "Melee",
-                        "bonusCritical": 0.0,
-                        "bonusCriticalHurt": 0.0
-                    },
-                    "hitPattern": {
-                        "onHitEffectName": "default",
-                        "hitLevel": "Heavy",
-                        "HPOPMELEPEB": 480.0,
-                        "hitImpulseY": 0.0,
-                        "hitImpulseType": "",
-                        "hitHaltTime": 0.05999999865889549,
-                        "hitHaltTimeScale": 0.009999999776482582,
-                        "canBeDefenceHalt": true
-                    },
-                    "cameraShake": {
-                        "shakeRange": 0.18000000715255737,
-                        "shakeTime": 0.11999999731779099
-                    }
-                }
-            },
-            "ATK04": {
-                "attackPattern": {
-                    "$type": "ConfigAttackCircle",
-                    "lifeTime": "TriggerNoRepeat",
-                    "radius": 1.600000023841858
-                },
-                "attackInfo": {
-                    "attackTag": "NormalAttack_04",
-                    "attenuationTag": "",
-                    "attenuationGroup": "default",
-                    "attackProperty": {
-                        "bonusCriticalHurt": 0.6899999976158142,
-                        "damagePercentageRatio": 0.0,
-                        "elementDurability": 20.0,
-                        "overrideByWeapon": true,
-                        "strikeType": "Slash",
-                        "attackType": "Melee",
-                        "bonusCritical": 0.0,
-                        "bonusCriticalHurt": 0.0
-                    },
-                    "hitPattern": {
-                        "onHitEffectName": "default",
-                        "hitLevel": "Heavy",
-                        "HPOPMELEPEB": 560.0,
-                        "hitImpulseY": 0.0,
-                        "hitImpulseType": "",
-                        "hitHaltTime": 0.09000000357627869,
-                        "hitHaltTimeScale": 0.009999999776482582,
-                        "canBeDefenceHalt": true
-                    },
-                    "cameraShake": {
-                        "shakeRange": 0.23999999463558197,
-                        "shakeTime": 0.18000000715255737
-                    }
-                }
-            },
-            "ATK05": {
-                "attackPattern": {
-                    "$type": "ConfigAttackCircle",
-                    "lifeTime": "TriggerNoRepeat",
-                    "radius": 1.600000023841858
-                },
-                "attackInfo": {
-                    "attackTag": "NormalAttack_05",
-                    "attenuationTag": "",
-                    "attenuationGroup": "default",
-                    "attackProperty": {
-                        "bonusCriticalHurt": 0.9300000071525574,
-                        "damagePercentageRatio": 0.0,
-                        "elementDurability": 20.0,
-                        "overrideByWeapon": true,
-                        "strikeType": "Slash",
-                        "attackType": "Melee",
-                        "bonusCritical": 0.0,
-                        "bonusCriticalHurt": 0.0
-                    },
-                    "hitPattern": {
-                        "onHitEffectName": "default",
-                        "hitLevel": "Air",
-                        "HPOPMELEPEB": 560.0,
-                        "hitImpulseY": 480.0,
-                        "hitImpulseType": "",
-                        "hitHaltTime": 0.10000000149011612,
-                        "hitHaltTimeScale": 0.009999999776482582,
-                        "canBeDefenceHalt": true
-                    },
-                    "cameraShake": {
-                        "shakeRange": 0.36000001430511475,
-                        "shakeTime": 0.30000001192092896
-                    }
-                }
-            },
-            "ExtraAttack_1": {
-                "attackPattern": {
-                    "$type": "ConfigAttackCircle",
-                    "lifeTime": "TriggerNoRepeat",
-                    "radius": 2.200000047683716
-                },
-                "attackInfo": {
-                    "attackTag": "ExtraAttack",
-                    "attenuationTag": "",
-                    "attenuationGroup": "default",
-                    "attackProperty": {
-                        "bonusCriticalHurt": 0.20000000298023224,
-                        "damagePercentageRatio": 0.0,
-                        "elementDurability": 10.0,
-                        "overrideByWeapon": true,
-                        "strikeType": "Slash",
-                        "attackType": "Melee",
-                        "bonusCritical": 0.0,
-                        "bonusCriticalHurt": 0.0
-                    },
-                    "hitPattern": {
-                        "onHitEffectName": "default",
-                        "hitLevel": "Light",
-                        "HPOPMELEPEB": 0.0,
-                        "hitImpulseY": 0.0,
-                        "hitImpulseType": "",
-                        "hitHaltTime": 0.019999999552965164,
-                        "hitHaltTimeScale": 0.009999999776482582,
-                        "canBeDefenceHalt": true
-                    },
-                    "cameraShake": {
-                        "shakeRange": 0.029999999329447746,
-                        "shakeTime": 0.05000000074505806
-                    }
-                }
-            },
-            "ExtraAttack_2": {
-                "attackPattern": {
-                    "$type": "ConfigAttackCircle",
-                    "lifeTime": "TriggerNoRepeat",
-                    "secondHeight": 1.5,
-                    "radius": 2.200000047683716
-                },
-                "attackInfo": {
-                    "attackTag": "ExtraAttack",
-                    "attenuationTag": "",
-                    "attenuationGroup": "default",
-                    "attackProperty": {
-                        "bonusCriticalHurt": 0.30000001192092896,
-                        "damagePercentageRatio": 0.0,
-                        "elementDurability": 20.0,
-                        "overrideByWeapon": true,
-                        "strikeType": "Slash",
-                        "attackType": "Melee",
-                        "bonusCritical": 0.0,
-                        "bonusCriticalHurt": 0.0
-                    },
-                    "hitPattern": {
-                        "onHitEffectName": "default",
-                        "hitLevel": "Air",
-                        "HPOPMELEPEB": 200.0,
-                        "hitImpulseY": 0.0,
-                        "hitImpulseType": "",
-                        "hitHaltTime": 0.05000000074505806,
-                        "hitHaltTimeScale": 0.009999999776482582,
-                        "canBeDefenceHalt": true
-                    },
-                    "cameraShake": {
-                        "shakeRange": 0.15000000596046448,
-                        "shakeTime": 0.10000000149011612
-                    }
-                }
-            }
         }
     },
     "equipController": {
         "sheathPoint": "WeaponBackPut",
         "dissolveSheathFadeDelay": 0.07500000298023224,
         "dissolveSheathFadeTime": 2.0999999046325684,
+        "triggerToStates": [
+            {
+                "trigger": "Attack",
+                "playTime": 0.15000000596046448,
+                "states": [
+                    "Shoot/Attack01"
+                ],
+                "bowDrawTimes": [
+                    {
+                        "CDBPPLDICLL": 0.04100000113248825,
+                        "bowDrawEndNormTime": ""
+                    }
+                ],
+                "floatID": ""
+            },
+            {
+                "trigger": "Attack",
+                "playTime": 0.16699999570846558,
+                "states": [
+                    "Shoot/Attack02"
+                ],
+                "bowDrawTimes": [
+                    {
+                        "bowDrawStartNormTime": 0.007000000216066837,
+                        "CDBPPLDICLL": 0.054999999701976776,
+                        "bowDrawEndNormTime": ""
+                    }
+                ],
+                "floatID": ""
+            },
+            {
+                "trigger": "Attack",
+                "playTime": 0.18299999833106995,
+                "states": [
+                    "Shoot/Attack03"
+                ],
+                "bowDrawTimes": [
+                    {
+                        "bowDrawStartNormTime": 0.020999999716877937,
+                        "CDBPPLDICLL": 0.06199999898672104,
+                        "bowDrawEndNormTime": ""
+                    }
+                ],
+                "floatID": ""
+            },
+            {
+                "trigger": "Attack",
+                "playTime": 0.18299999833106995,
+                "states": [
+                    "Shoot/Attack04"
+                ],
+                "bowDrawTimes": [
+                    {
+                        "bowDrawStartNormTime": 0.03200000151991844,
+                        "CDBPPLDICLL": 0.07599999755620956,
+                        "bowDrawEndNormTime": ""
+                    }
+                ],
+                "floatID": ""
+            },
+            {
+                "trigger": "Attack",
+                "playTime": 0.31700000166893005,
+                "states": [
+                    "Shoot/Attack05"
+                ],
+                "bowDrawTimes": [
+                    {
+                        "bowDrawStartNormTime": 0.0430000014603138,
+                        "CDBPPLDICLL": 0.11100000143051147,
+                        "bowDrawEndNormTime": ""
+                    }
+                ],
+                "floatID": ""
+            },
+            {
+                "trigger": "AimAttack",
+                "playTime": 0.20000000298023224,
+                "states": [
+                    "AimShoot",
+                    "FastAimShoot"
+                ],
+                "bowDrawTimes": [
+                    {
+                        "bowDrawStartNormTime": 0.5199999809265137,
+                        "bowDrawEndNormTime": ""
+                    }
+                ],
+                "floatID": ""
+            },
+            {
+                "trigger": "AimLoop",
+                "states": [
+                    "Aim",
+                    "FastAim"
+                ],
+                "bowDrawTimes": [
+                    {
+                        "bowDrawEndNormTime": ""
+                    }
+                ],
+                "floatID": ""
+            }
+        ],
         "attachPoints": {
             "equip01": "WeaponR",
-            "equip02": "WeaponL"
+            "equip02": "WeaponL",
+            "equip03": "WeaponL"
         }
     },
     "abilities": [
         {
-            "abilityID": "Wind_UziExplode",
-            "abilityName": "Avatar_Player_UziExplode",
+            "abilityID": "Avatar_Collei_PressShoot",
+            "abilityName": "Avatar_Collei_PressShoot",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Wind_UziExplode_Strike_01",
-            "abilityName": "Avatar_Player_UziExplode_Strike_01",
+            "abilityID": "Avatar_Collei_AimPressShoot",
+            "abilityName": "Avatar_Collei_AimPressShoot",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Wind_UziExplode_Strike_02",
-            "abilityName": "Avatar_Player_UziExplode_Strike_02",
+            "abilityID": "Avatar_Collei_Arrow_FX",
+            "abilityName": "Avatar_Collei_Arrow_FX",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Wind_WindBreathe",
-            "abilityName": "Avatar_Player_WindBreathe",
+            "abilityID": "Avatar_Collei_ShootAimingArrow_Charge",
+            "abilityName": "Avatar_Collei_ShootAimingArrow_Charge",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Wind_Talent_Arashi",
-            "abilityName": "Avatar_Player_Wind_Arashi",
+            "abilityID": "Avatar_Collei_ShootArrow_01",
+            "abilityName": "Avatar_Collei_ShootArrow_01",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Rock_Hogyoku",
-            "abilityName": "Avatar_Player_Hogyoku",
+            "abilityID": "Avatar_Collei_ShootArrow_02",
+            "abilityName": "Avatar_Collei_ShootArrow_02",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Rock_RockTide",
-            "abilityName": "Avatar_Player_RockTide",
+            "abilityID": "Avatar_Collei_ShootArrow_03",
+            "abilityName": "Avatar_Collei_ShootArrow_03",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Rock_Talent_Avalanche",
-            "abilityName": "Avatar_Player_Rock_Avalanche",
+            "abilityID": "Avatar_Collei_ShootArrow_04",
+            "abilityName": "Avatar_Collei_ShootArrow_04",
+            "abilityOverride": ""
+        },
+        {
+            "abilityID": "Avatar_Collei_ShootArrow_Aiming",
+            "abilityName": "Avatar_Collei_ShootArrow_Aiming",
+            "abilityOverride": ""
+        },
+        {
+            "abilityID": "Avatar_Collei_ElementalArt",
+            "abilityName": "Avatar_Collei_ElementalArt",
+            "abilityOverride": ""
+        },
+        {
+            "abilityID": "Avatar_Collei_ElementalBurst",
+            "abilityName": "Avatar_Collei_ElementalBurst",
+            "abilityOverride": ""
+        },
+        {
+            "abilityID": "Avatar_Collei_FallingAnthem",
+            "abilityName": "Avatar_Collei_FallingAnthem",
+            "abilityOverride": ""
+        },
+        {
+            "abilityID": "Avatar_Collei_Skill_ElementalArt",
+            "abilityName": "Avatar_Collei_Skill_ElementalArt",
+            "abilityOverride": ""
+        },
+        {
+            "abilityID": "Avatar_Collei_Skill_ElementalArt_AS",
+            "abilityName": "Avatar_Collei_Skill_ElementalArt_AS",
+            "abilityOverride": ""
+        },
+        {
+            "abilityID": "Avatar_Collei_Skill_ElementalBurst",
+            "abilityName": "Avatar_Collei_Skill_ElementalBurst",
+            "abilityOverride": ""
+        },
+        {
+            "abilityID": "Avatar_Collei_Skill_ElementalBurst_AS",
+            "abilityName": "Avatar_Collei_Skill_ElementalBurst_AS",
             "abilityOverride": ""
         }
     ],
@@ -396,52 +290,64 @@
                 "NormalMove": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
-                        "ShowUp": [],
+                        "ShowUp": [
+                            "Audio_Lady_Showup"
+                        ],
                         "WalkToRun": [
-                            "Audio_Girl_WalkToRun"
+                            "Audio_Lady_WalkToRun",
+                            "Audio_Lady_Foley_Twice_Collei"
                         ],
                         "Walk": [
-                            "Ani_Walk01",
-                            "Audio_Girl_Walk",
-                            "WalkStepOnWater"
+                            "Ani_WalkSprint01",
+                            "Audio_Lady_Walk",
+                            "WalkStepOnWater",
+                            "Audio_Lady_Foley_Walk_Collei"
                         ],
                         "RunToWalk": [
-                            "Audio_Girl_RunToWalk"
+                            "Audio_Lady_RunToWalk",
+                            "Audio_Lady_Foley_Twice_Collei"
                         ],
                         "Run": [
-                            "Ani_Walk01",
-                            "Audio_Girl_Run"
+                            "Ani_Run01",
+                            "Audio_Lady_Run",
+                            "Audio_Lady_Foley_Run_Collei"
                         ],
                         "RunToIdle": [
-                            "Audio_Girl_RunToIdle"
+                            "Audio_Lady_RunToIdle",
+                            "Audio_Lady_Foley_RunToIdle_Collei"
                         ],
                         "WalkToIdle": [
-                            "Audio_Girl_WalkToIdle"
+                            "Audio_Lady_WalkToIdle"
                         ],
                         "RunningTurn": [],
                         "SprintToRun": [
-                            "Audio_Girl_SprintToRun"
+                            "Audio_Lady_SprintToRun",
+                            "Audio_Lady_Foley_Once_Collei"
                         ],
                         "SprintToIdle": [
-                            "Audio_Girl_SprintToIdle"
+                            "Audio_Lady_SprintToIdle",
+                            "Emo_Lady_Sprint_AS",
+                            "Audio_Lady_Foley_SprintToIdle_Collei"
                         ],
                         "FallOnGround": [
-                            "Audio_Girl_FallOnGround"
+                            "Audio_Lady_FallOnGround",
+                            "Audio_Lady_Foley_Twice_Collei"
                         ],
                         "FallOnGroundLit": [
-                            "Audio_Girl_FallOnGroundLit"
-                        ],
-                        "FallOnGroundMiddle": [
-                            "Audio_Girl_FallOnGroundMiddle"
+                            "Audio_Lady_FallOnGroundLit",
+                            "Audio_Lady_Foley_Once_Collei"
                         ],
                         "FallToGroundRun": [
-                            "Audio_Girl_FallToGroundRun"
+                            "Audio_Lady_FallToGroundRun",
+                            "Audio_Lady_Foley_Twice_Collei"
                         ],
                         "FallToGroundRunHard": [
-                            "Audio_Girl_FallToGroundRunHard"
+                            "Audio_Lady_FallToGroundRunHard",
+                            "Audio_Lady_Foley_Twice_Collei"
                         ],
                         "FallToGroundSprint": [
-                            "Audio_Girl_FallToGroundSprint"
+                            "Audio_Lady_FallToGroundSprint",
+                            "Audio_Lady_Foley_Twice_Collei"
                         ]
                     },
                     "KGOCGKMHPKM": true,
@@ -461,18 +367,26 @@
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
                         "SprintBS": [
-                            "Audio_Girl_RunToSprint",
-                            "SprintBS_Invincible"
+                            "Audio_Lady_RunToSprint",
+                            "SprintBS_Invincible",
+                            "Emo_Lady_Sprint_BS",
+                            "Audio_Lady_Foley_SprintBS_Collei"
                         ]
                     },
                     "KGOCGKMHPKM": true,
                     "OBACGMAOFBH": [
-                        "DoSkill"
+                        "DoSkill",
+                        "AimEnd"
                     ],
                     "PEPOMHIGAEL": [
                         {
                             "name": "&CanUseSkill",
-                            "normalizeStart": 0.30000001192092896
+                            "normalizeStart": 0.25999999046325684
+                        }
+                    ],
+                    "NFMGGPBFCBK": [
+                        {
+                            "normalizeStart": 0.25999999046325684
                         }
                     ],
                     "CMJPCCCIGIH": "",
@@ -482,8 +396,10 @@
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
                         "Sprint": [
-                            "Ani_Walk01",
-                            "Audio_Girl_Sprint"
+                            "Ani_WalkSprint01",
+                            "Audio_Lady_Sprint",
+                            "Emo_Lady_Sprint_Loop",
+                            "Audio_Lady_Foley_Twice_Collei"
                         ]
                     },
                     "KGOCGKMHPKM": true,
@@ -499,40 +415,16 @@
                     "CMJPCCCIGIH": "",
                     "LJKLGHMMIMP": true
                 },
-                "Crouch": {
+                "SkiffNormal": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
-                        "CrouchIdle": [],
-                        "CrouchMove": [
-                            "Audio_Girl_CrouchMove"
-                        ],
-                        "CrouchRoll": [
-                            "Audio_Girl_CrouchRoll"
-                        ]
+                        "SkiffNormal": []
                     },
-                    "KGOCGKMHPKM": true,
-                    "FPHAEGEAAOE": 1.0,
-                    "PEPOMHIGAEL": [
-                        {
-                            "name": "&CanUseSkill"
-                        }
-                    ],
-                    "NFMGGPBFCBK": [
-                        {}
-                    ],
-                    "KJKDEGJBPHA": "Squat",
-                    "CMJPCCCIGIH": "",
-                    "LJKLGHMMIMP": true
-                },
-                "CrouchToStandby": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
-                        "CrouchToStandby": [
-                            "Audio_Girl_CrouchToStandby"
-                        ]
-                    },
-                    "OBACGMAOFBH": [
-                        "DoSkill"
+                    "FPHAEGEAAOE": 100.0,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
                     ],
                     "CMJPCCCIGIH": "",
                     "LJKLGHMMIMP": true
@@ -542,21 +434,26 @@
                     "PINCPDEEFJI": {
                         "ClimbMove0": [
                             "ClimbStep",
-                            "Audio_Girl_Climb"
+                            "Audio_Lady_Climb",
+                            "Audio_Lady_Foley_ClimbMove_Collei"
                         ],
                         "ClimbMove1": [
                             "ClimbStep",
-                            "Audio_Girl_Climb"
+                            "Audio_Lady_Climb",
+                            "Audio_Lady_Foley_Twice_Collei"
                         ],
                         "ClimbIdle": [],
                         "ClimbJump": [
-                            "Audio_Girl_ClimbDash"
+                            "Audio_Lady_ClimbDash",
+                            "Audio_Lady_Foley_Once_Collei"
                         ],
                         "JumpUpWallForStandby": [
-                            "Audio_Girl_JumpUpWallStandby"
+                            "Audio_Lady_JumpUpWallStandby",
+                            "Audio_Lady_Foley_Once_Collei"
                         ],
                         "Standby2ClimbB": [
-                            "Audio_Girl_Standby2ClimbB"
+                            "Audio_Lady_Standby2ClimbB",
+                            "Audio_Lady_Foley_Once_Collei"
                         ]
                     },
                     "OBACGMAOFBH": [
@@ -569,12 +466,12 @@
                 "ClimbTransient": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
-                        "JumpWallReady": [],
-                        "Standby2ClimbA": [
-                            "Audio_Girl_Standby2ClimbA"
+                        "JumpWallReady": [
+                            "Audio_Lady_JumpUpWallReady"
                         ],
-                        "Upstairs": [
-                            "Audio_Girl_Upstairs"
+                        "Standby2ClimbA": [
+                            "Audio_Lady_Standby2ClimbA",
+                            "Audio_Lady_Foley_Once_Collei"
                         ]
                     },
                     "OBACGMAOFBH": [
@@ -583,34 +480,33 @@
                     "CMJPCCCIGIH": "",
                     "LJKLGHMMIMP": true
                 },
-                "Ladder": {
+                "Upstairs": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
-                        "LadderMove0": [],
-                        "LadderMove1": [],
-                        "LadderIdle": [],
-                        "LadderSlip": [],
-                        "LadderSlipStop": [],
-                        "Standby2Ladder": []
+                        "Upstairs": [
+                            "Audio_Lady_Upstairs",
+                            "Audio_Lady_Foley_Once_Collei"
+                        ]
                     },
                     "OBACGMAOFBH": [
                         "DoSkill"
                     ],
-                    "KJKDEGJBPHA": "Ladder",
+                    "PEPOMHIGAEL": [
+                        {
+                            "name": "&CanUseSkill"
+                        }
+                    ],
                     "CMJPCCCIGIH": "",
                     "LJKLGHMMIMP": true
                 },
                 "Slip": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
-                        "SlipLit": [
-                            "Audio_Girl_SlipLit"
-                        ],
                         "SlipFaceWall": [
-                            "Audio_Girl_SlipFaceWall_PlayerGirl"
+                            "Audio_Lady_Foley_SlipFaceWall_Collei"
                         ],
                         "SlipBackWall": [
-                            "Audio_Girl_SlipFaceWall_PlayerGirl"
+                            "Audio_Lady_Foley_SlipBackWall_Collei"
                         ]
                     },
                     "OBACGMAOFBH": [
@@ -623,22 +519,18 @@
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
                         "SwimIdle": [
-                            "Audio_Girl_SwimIdle"
+                            "Audio_Lady_SwimIdle"
                         ],
                         "SwimMove": [
-                            "Ani_Walk01",
                             "SwimStep",
-                            "Audio_Girl_SwimMove"
+                            "Audio_Lady_SwimMove"
                         ],
                         "SwimDash": [
-                            "Audio_Girl_SwimDash"
+                            "Audio_Lady_SwimDash",
+                            "Avatar_Lady_SwimDash_Hand_Effect"
                         ],
-                        "SwimJump": [
-                            "Audio_Girl_SwimJump"
-                        ],
-                        "SwimJumpDrop": [],
                         "SwimJumpToWater": [
-                            "Audio_Girl_SwimJumpToWater"
+                            "Audio_Lady_SwimJumpToWater"
                         ]
                     },
                     "OBACGMAOFBH": [
@@ -652,15 +544,22 @@
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
                         "Fly": [
-                            "Audio_Girl_Fly"
+                            "Audio_Lady_Fly"
                         ],
                         "FlyStart": [
-                            "Audio_Girl_FlyStart"
+                            "Audio_Lady_FlyStart",
+                            "FlyStart_Weapon",
+                            "Audio_Lady_Foley_FlyStart_Collei"
                         ]
                     },
                     "KGOCGKMHPKM": true,
                     "OBACGMAOFBH": [
                         "DoSkill"
+                    ],
+                    "PEPOMHIGAEL": [
+                        {
+                            "name": "&CanUseAirSkill"
+                        }
                     ],
                     "KJKDEGJBPHA": "Fly",
                     "CMJPCCCIGIH": "",
@@ -670,24 +569,31 @@
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
                         "Jump": [
-                            "Audio_Girl_Jump"
+                            "Audio_Lady_Jump",
+                            "Audio_Lady_Foley_Jump_Collei"
                         ],
                         "JumpForRun": [
-                            "Audio_Girl_Jump"
+                            "Audio_Lady_Jump",
+                            "Audio_Lady_Foley_Once_Collei"
                         ],
                         "JumpForWalk": [
-                            "Audio_Girl_Jump"
+                            "Audio_Lady_Jump",
+                            "Audio_Lady_Foley_Once_Collei"
                         ],
                         "JumpForSprint": [
-                            "Audio_Girl_Jump"
+                            "Audio_Lady_Jump",
+                            "Audio_Lady_Foley_Once_Collei"
                         ]
                     },
                     "KGOCGKMHPKM": true,
                     "OBACGMAOFBH": [
-                        "DoSkill"
+                        "DoSkill",
+                        "AimEnd"
                     ],
-                    "NFMGGPBFCBK": [
-                        {}
+                    "PEPOMHIGAEL": [
+                        {
+                            "name": "&CanUseAirSkill"
+                        }
                     ],
                     "KJKDEGJBPHA": "Jump",
                     "CMJPCCCIGIH": "",
@@ -697,10 +603,19 @@
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
                         "JumpOffWall": [
-                            "Audio_Girl_Jump"
+                            "Audio_Lady_Jump",
+                            "Audio_Lady_Foley_Once_Collei"
+                        ],
+                        "SwimJump": [
+                            "Audio_Lady_SwimJump",
+                            "Audio_Lady_Foley_Once_Collei"
+                        ],
+                        "SwimJumpDrop": [
+                            "Audio_Lady_Foley_ThreeTimes_Collei"
                         ],
                         "DropDown": [
-                            "Audio_Girl_DropDown"
+                            "Audio_Lady_DropDown",
+                            "Audio_Lady_Foley_ThreeTimes_Collei"
                         ],
                         "DropDownLit": [],
                         "WalkDropDownLit": []
@@ -708,6 +623,11 @@
                     "KGOCGKMHPKM": true,
                     "OBACGMAOFBH": [
                         "DoSkill"
+                    ],
+                    "PEPOMHIGAEL": [
+                        {
+                            "name": "&CanUseAirSkill"
+                        }
                     ],
                     "CMJPCCCIGIH": "",
                     "LJKLGHMMIMP": true
@@ -734,39 +654,41 @@
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
                         "WalkToRunWeapon": [
-                            "Girl_Sword_Putaway_RunBS",
-                            "Audio_Girl_WalkToRun"
+                            "Lady_Sword_Putaway_RunBS",
+                            "Audio_Lady_WalkToRun"
                         ],
                         "WalkWeapon": [
-                            "Audio_Girl_Walk"
+                            "Audio_Lady_Walk",
+                            "Audio_Lady_Foley_Twice_Collei"
                         ],
                         "RunToWalkWeapon": [
-                            "Audio_Girl_RunToWalk"
+                            "Audio_Lady_RunToWalk"
                         ],
                         "RunWeapon": [
-                            "Audio_Girl_Run"
+                            "Audio_Lady_Run",
+                            "Audio_Lady_Foley_Twice_Collei"
                         ],
                         "RunToIdleWeapon": [
-                            "Audio_Girl_RunToIdleWeapon_PlayerGirl"
+                            "Audio_Lady_Foley_Twice_Collei"
                         ],
                         "WalkToIdleWeapon": [
-                            "Audio_Girl_WalkToIdleWeapon_PlayerGirl"
+                            "Audio_Lady_Foley_Twice_Collei"
                         ],
                         "RunningTurnWeapon": [],
                         "FallOnGroundWeapon": [
-                            "Audio_Girl_FallOnGround"
+                            "Audio_Lady_FallOnGround"
                         ],
                         "FallOnGroundLitWeapon": [
-                            "Audio_Girl_FallOnGroundLit"
+                            "Audio_Lady_FallOnGroundLit"
                         ],
                         "FallOnGroundMiddleWeapon": [
-                            "Audio_Girl_FallOnGroundMiddle"
+                            "Audio_Lady_FallOnGroundMiddle"
                         ],
                         "FallToGroundRunWeapon": [
-                            "Audio_Girl_FallToGroundRun"
+                            "Audio_Lady_FallToGroundRun"
                         ],
                         "FallToGroundRunHardWeapon": [
-                            "Audio_Girl_FallToGroundRunHard"
+                            "Audio_Lady_FallToGroundRunHard"
                         ]
                     },
                     "KGOCGKMHPKM": true,
@@ -786,20 +708,23 @@
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
                         "StandbyPutaway": [
-                            "Girl_Sword_Putaway_Standby",
-                            "Audio_Girl_Sword_StandbyPutAway"
+                            "Lady_Bow_Putaway_Standby",
+                            "Audio_Lady_Crossbow_StandbyPutAway",
+                            "Audio_Lady_Foley_Once_Collei"
                         ],
                         "WalkPutaway": [
-                            "Girl_Sword_Putaway_Walk",
-                            "Audio_Girl_Sword_WalkPutAway"
+                            "Lady_Sword_Putaway_Walk",
+                            "Audio_Lady_Crossbow_WalkPutAway",
+                            "Audio_Lady_Foley_Twice_Collei"
                         ],
                         "RunPutaway": [
-                            "Girl_Sword_Putaway_Run",
-                            "Audio_Girl_Sword_RunPutAway"
+                            "Lady_Sword_Putaway_Run",
+                            "Audio_Lady_Crossbow_RunPutAway",
+                            "Audio_Lady_Foley_Twice_Collei"
                         ],
                         "RunToSprintWeapon": [
-                            "Girl_Sword_Putaway_Sprint",
-                            "Audio_Girl_Sword_RunToSprintWeapon"
+                            "Lady_Sword_Putaway_Sprint",
+                            "Audio_Lady_Crossbow_RunToSprintWeapon"
                         ]
                     },
                     "KGOCGKMHPKM": true,
@@ -820,13 +745,13 @@
                     "PINCPDEEFJI": {
                         "StandbyPutawayOver": [],
                         "WalkPutawayOver": [
-                            "Audio_Girl_Sword_WalkPutAwayOver"
+                            "Audio_Lady_Sword_WalkPutAwayOver"
                         ],
                         "RunPutawayOver": [
-                            "Audio_Girl_Sword_RunPutAwayOver"
+                            "Audio_Lady_Sword_RunPutAwayOver"
                         ],
                         "RunToSprintWeaponOver": [
-                            "Audio_Girl_Sword_RunToSprintWeaponOver"
+                            "Audio_Lady_Sword_RunToSprintWeaponOver"
                         ]
                     },
                     "KGOCGKMHPKM": true,
@@ -846,13 +771,16 @@
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
                         "JumpWeapon": [
-                            "Audio_Girl_Jump"
+                            "Audio_Lady_Jump",
+                            "Audio_Lady_Foley_Once_Collei"
                         ],
                         "JumpForRunWeapon": [
-                            "Audio_Girl_Jump"
+                            "Audio_Lady_Jump",
+                            "Audio_Lady_Foley_Once_Collei"
                         ],
                         "JumpForWalkWeapon": [
-                            "Audio_Girl_Jump"
+                            "Audio_Lady_Jump",
+                            "Audio_Lady_Foley_Once_Collei"
                         ]
                     },
                     "KGOCGKMHPKM": true,
@@ -875,7 +803,8 @@
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
                         "DropDownWeapon": [
-                            "Audio_Girl_DropDown"
+                            "Audio_Lady_DropDown",
+                            "Audio_Lady_Foley_ThreeTimes_Collei"
                         ],
                         "DropDownLitWeapon": [],
                         "WalkDropDownLitWeapon": []
@@ -896,13 +825,12 @@
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
                         "Hit_L": [
-                            "Audio_Girl_Hit_L"
+                            "Audio_Lady_Hit_L",
+                            "Audio_Lady_Foley_Once_Collei"
                         ],
                         "Hit_H": [
-                            "Audio_Girl_Hit_H"
-                        ],
-                        "Hit_Throw_Ground": [
-                            "Audio_Girl_Hit_Throw_Ground_PlayerGirl"
+                            "Audio_Lady_Hit_H",
+                            "Audio_Lady_Foley_Once_Collei"
                         ]
                     },
                     "moveType": "combatMove",
@@ -918,12 +846,44 @@
                     "CMJPCCCIGIH": "",
                     "JHDECFFCOBN": true
                 },
+                "HitThrow": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "Hit_Throw_Ground": [
+                            "BeHitAir_Weapon",
+                            "Audio_Lady_HitThrowGround",
+                            "Audio_Lady_Foley_Hit_Throw_Ground_Collei"
+                        ]
+                    },
+                    "moveType": "combatMove",
+                    "OBACGMAOFBH": [
+                        "BeHit",
+                        "HitAir2HitDrop"
+                    ],
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ],
+                    "GIALJOFOFNL": "combatBeHit",
+                    "ECMNPJFELOJ": 0.0,
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
+                },
                 "BeHitAir": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
-                        "Hit_Throw": [],
-                        "Hit_ThrowAir": [],
-                        "Struggle": []
+                        "Hit_Throw": [
+                            "Audio_Lady_Hit_Throw",
+                            "BeHitAir_Weapon",
+                            "Audio_Lady_Foley_Twice_Collei"
+                        ],
+                        "Hit_ThrowAir": [
+                            "Audio_Lady_DropDown",
+                            "BeHitAir_Weapon"
+                        ],
+                        "Struggle": [
+                            "BeHitAir_Weapon",
+                            "Audio_Lady_Foley_ThreeTimes_Collei"
+                        ]
                     },
                     "moveType": "combatAir",
                     "OBACGMAOFBH": [
@@ -933,230 +893,302 @@
                         "DoSkill"
                     ],
                     "GIALJOFOFNL": "combatBeHit",
+                    "KJKDEGJBPHA": "CombatAir",
                     "ECMNPJFELOJ": 0.0,
                     "CMJPCCCIGIH": "",
-                    "JHDECFFCOBN": true
+                    "LJKLGHMMIMP": true
                 },
                 "Die": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
+                        "FallDie": [
+                            "Audio_Lady_NormalDie"
+                        ],
                         "NormalDie": [
-                            "Avatar_Girl_Die",
-                            "Audio_Girl_Death"
+                            "Die",
+                            "Audio_Lady_NormalDie",
+                            "Audio_Lady_Foley_Once_Collei"
                         ],
                         "SwimDie": [
-                            "Die",
-                            "Audio_Girl_SwimDie"
+                            "Swim_Die",
+                            "Audio_Lady_SwimDie"
                         ],
                         "HitGroundDie": [
                             "Die",
-                            "Audio_Girl_Death"
+                            "Audio_Lady_Death"
                         ]
                     },
                     "CMJPCCCIGIH": ""
                 },
-                "Attack01": {
+                "Die_RagDoll": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "FallDie_AS": []
+                    },
+                    "LKIANOAEKFG": true,
+                    "CMJPCCCIGIH": ""
+                },
+                "ShootBS": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "ShootStandbyBS": [
+                            "Emo_Lady_Bow_Collei_Fight_AimBS",
+                            "Audio_Lady_Bow_Collei_ShootStandby_BS"
+                        ],
+                        "ShootRunBS": [
+                            "Emo_Lady_Bow_Collei_Fight_AimBS",
+                            "Audio_Lady_Bow_Collei_ShootStandby_BS"
+                        ]
+                    },
+                    "moveType": "combatMove",
+                    "KGOCGKMHPKM": true,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
+                    ],
+                    "PEPOMHIGAEL": [
+                        {
+                            "name": "&CanCancelSkill"
+                        }
+                    ],
+                    "NFMGGPBFCBK": [
+                        {}
+                    ],
+                    "CMJPCCCIGIH": "",
+                    "JHDECFFCOBN": true
+                },
+                "Shoot": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
                         "Attack01": [
-                            "PlayerGirl_Attack01_BS",
-                            "PlayerGirl_Attack01",
-                            "Audio_Girl_Sword_PlayerGirl_Attack01",
+                            "Collei_Attack01",
+                            "Audio_Lady_Bow_Collei_Attack01",
+                            "Emo_Lady_Bow_Collei_NormalAttack01",
                             "SetComboCount1",
-                            "Emo_Girl_Sword_PlayerGirl_NormalAttack01"
-                        ]
-                    },
-                    "moveType": "combatMove",
-                    "KGOCGKMHPKM": true,
-                    "KJALBKOJAJE": [
-                        "BeHit"
-                    ],
-                    "PEPOMHIGAEL": [
-                        {
-                            "name": "&CanCancelSkill",
-                            "normalizeStart": 0.25
-                        },
-                        {
-                            "name": "&CanUseExtra",
-                            "normalizeStart": 0.3199999928474426,
-                            "normalizeEnd": 0.625
-                        }
-                    ],
-                    "GIALJOFOFNL": "combatNormal",
-                    "NFMGGPBFCBK": [
-                        {}
-                    ],
-                    "CMJPCCCIGIH": "",
-                    "JHDECFFCOBN": true
-                },
-                "Attack02": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
+                            "Interaction_Bad"
+                        ],
                         "Attack02": [
-                            "PlayerGirl_Attack02",
-                            "Audio_Girl_Sword_PlayerGirl_Attack02",
+                            "Collei_Attack02",
+                            "Audio_Lady_Bow_Collei_Attack02",
+                            "Emo_Lady_Bow_Collei_NormalAttack02",
                             "SetComboCount2",
-                            "Emo_Girl_Sword_PlayerGirl_NormalAttack02"
-                        ]
-                    },
-                    "moveType": "combatMove",
-                    "KGOCGKMHPKM": true,
-                    "KJALBKOJAJE": [
-                        "BeHit"
-                    ],
-                    "PEPOMHIGAEL": [
-                        {
-                            "name": "&CanCancelSkill",
-                            "normalizeStart": 0.25
-                        },
-                        {
-                            "name": "&CanUseExtra",
-                            "normalizeStart": 0.20000000298023224,
-                            "normalizeEnd": 0.6000000238418579
-                        }
-                    ],
-                    "GIALJOFOFNL": "combatNormal",
-                    "NFMGGPBFCBK": [
-                        {}
-                    ],
-                    "CMJPCCCIGIH": "",
-                    "JHDECFFCOBN": true
-                },
-                "Attack03": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
+                            "Interaction_Bad"
+                        ],
                         "Attack03": [
-                            "PlayerGirl_Attack03",
-                            "Audio_Girl_Sword_PlayerGirl_Attack03",
+                            "Collei_Attack03",
+                            "Audio_Lady_Bow_Collei_Attack03",
+                            "Emo_Lady_Bow_Collei_NormalAttack03",
                             "SetComboCount3",
-                            "Emo_Girl_Sword_PlayerGirl_NormalAttack03"
-                        ]
-                    },
-                    "moveType": "combatMove",
-                    "KGOCGKMHPKM": true,
-                    "KJALBKOJAJE": [
-                        "BeHit"
-                    ],
-                    "PEPOMHIGAEL": [
-                        {
-                            "name": "&CanCancelSkill",
-                            "normalizeStart": 0.25
-                        },
-                        {
-                            "name": "&CanUseExtra",
-                            "normalizeStart": 0.3799999952316284,
-                            "normalizeEnd": 0.699999988079071
-                        }
-                    ],
-                    "GIALJOFOFNL": "combatNormal",
-                    "NFMGGPBFCBK": [
-                        {}
-                    ],
-                    "CMJPCCCIGIH": "",
-                    "JHDECFFCOBN": true
-                },
-                "Attack04": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
+                            "Interaction_Bad"
+                        ],
                         "Attack04": [
-                            "PlayerGirl_Attack04",
-                            "Audio_Girl_Sword_PlayerGirl_Attack04",
+                            "Collei_Attack04",
+                            "Audio_Lady_Bow_Collei_Attack04",
+                            "Emo_Lady_Bow_Collei_NormalAttack04",
                             "SetComboCount4",
-                            "Emo_Girl_Sword_PlayerGirl_NormalAttack04"
+                            "Interaction_Bad"
+                        ],
+                        "Attack05": [
+                            "Collei_Attack05",
+                            "Audio_Lady_Bow_Collei_Attack05",
+                            "Emo_Lady_Bow_Collei_NormalAttack05",
+                            "SetComboCount5",
+                            "Interaction_Bad"
                         ]
                     },
                     "moveType": "combatMove",
                     "KGOCGKMHPKM": true,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
+                    ],
+                    "PEPOMHIGAEL": [
+                        {
+                            "name": "&CanCancelSkill"
+                        }
+                    ],
+                    "GIALJOFOFNL": "combatNormal",
+                    "HBPCGNIGHPH": {
+                        "PAHCFHPHLOJ": 2.0
+                    },
+                    "NFMGGPBFCBK": [
+                        {}
+                    ],
+                    "CMJPCCCIGIH": "",
+                    "JHDECFFCOBN": true,
+                    "OFJCIKBGGOH": true
+                },
+                "Aim": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "NJDDMHGDEMN": -2,
+                    "PINCPDEEFJI": {
+                        "AimLoop": [
+                            "Audio_Girl_Crossbow_Aim_Loop",
+                            "Emo_Lady_Bow_Collei_Fight_Aim"
+                        ]
+                    },
+                    "moveType": "combatMove",
+                    "KGOCGKMHPKM": true,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
+                    ],
+                    "IOAFHADKMDP": true,
+                    "KJKDEGJBPHA": "Aim",
+                    "CMJPCCCIGIH": "",
+                    "JHDECFFCOBN": true
+                },
+                "FastAim": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "NJDDMHGDEMN": -2,
+                    "PINCPDEEFJI": {
+                        "FastAimLoop": [
+                            "Audio_Girl_Crossbow_Aim_Loop",
+                            "Emo_Lady_Bow_Collei_Fight_Aim"
+                        ]
+                    },
+                    "moveType": "combatMove",
+                    "KGOCGKMHPKM": true,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
+                    ],
+                    "IOAFHADKMDP": true,
+                    "KJKDEGJBPHA": "FastAim",
+                    "CMJPCCCIGIH": "",
+                    "JHDECFFCOBN": true
+                },
+                "Collei_ElementalArt_BS": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "Collei_ElementalArt_BS": [
+                            "Audio_Lady_Bow_Collei_ElementalArt_BS",
+                            "Emo_Lady_Bow_Collei_ElementalArt_BS"
+                        ]
+                    },
+                    "moveType": "combatMove",
+                    "KEHIJHBHAFK": 0.6000000238418579,
+                    "KJALBKOJAJE": [
+                        "BeHit"
+                    ],
+                    "GIALJOFOFNL": "combatNormal",
+                    "ECMNPJFELOJ": -1.0,
+                    "BEELMIKLFEI": -1.0,
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
+                },
+                "Collei_ElementalArt": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "Collei_ElementalArt": [
+                            "Collei_ElementalArt",
+                            "Emo_Lady_Bow_Collei_ElementalArt"
+                        ]
+                    },
+                    "moveType": "combatMove",
+                    "KGOCGKMHPKM": true,
+                    "MCCEAPCGAPM": 0.550000011920929,
+                    "KEHIJHBHAFK": 0.6000000238418579,
                     "KJALBKOJAJE": [
                         "BeHit"
                     ],
                     "PEPOMHIGAEL": [
                         {
                             "name": "&CanCancelSkill",
-                            "normalizeStart": 0.25
+                            "normalizeStart": 0.550000011920929
                         },
                         {
-                            "name": "&CanUseExtra",
-                            "normalizeStart": 0.4300000071525574,
-                            "normalizeEnd": 0.699999988079071
+                            "name": "&CanUseSkill",
+                            "normalizeStart": 0.550000011920929
                         }
                     ],
                     "GIALJOFOFNL": "combatNormal",
-                    "NFMGGPBFCBK": [
-                        {}
-                    ],
+                    "HBPCGNIGHPH": {
+                        "PAHCFHPHLOJ": 10.0
+                    },
+                    "ECMNPJFELOJ": -1.0,
+                    "BEELMIKLFEI": -1.0,
                     "CMJPCCCIGIH": "",
-                    "JHDECFFCOBN": true
+                    "LJKLGHMMIMP": true
                 },
-                "Attack05": {
+                "Collei_ElementalArt_AS": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
-                        "Attack05": [
-                            "PlayerGirl_Attack05",
-                            "Audio_Girl_Sword_PlayerGirl_Attack05",
-                            "SetComboCount5",
-                            "Emo_Girl_Sword_PlayerGirl_NormalAttack05"
+                        "Collei_ElementalArt_AS": [
+                            "Audio_Lady_Bow_Collei_ElementalArt_AS",
+                            "Emo_Lady_Bow_Collei_ElementalArt_AS"
                         ]
                     },
                     "moveType": "combatMove",
                     "KGOCGKMHPKM": true,
                     "KJALBKOJAJE": [
-                        "BeHit"
-                    ],
-                    "PEPOMHIGAEL": [
-                        {
-                            "name": "&CanCancelSkill",
-                            "normalizeStart": 0.25
-                        }
-                    ],
-                    "GIALJOFOFNL": "combatNormal",
-                    "NFMGGPBFCBK": [
-                        {}
-                    ],
-                    "CMJPCCCIGIH": "",
-                    "JHDECFFCOBN": true
-                },
-                "ExtraAttack": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
-                        "ExtraAttack": [
-                            "PlayerGirl_ExtraAttack",
-                            "Emo_Girl_Sword_PlayerGirl_NormalAttack05",
-                            "Audio_Girl_Sword_PlayerGirl_ExtraAtk"
-                        ]
-                    },
-                    "moveType": "combatMove",
-                    "KGOCGKMHPKM": true,
-                    "KJALBKOJAJE": [
-                        "BeHit"
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
                     ],
                     "PEPOMHIGAEL": [
                         {
                             "name": "&CanCancelSkill"
+                        },
+                        {
+                            "name": "&CanUseSkill"
                         }
                     ],
                     "GIALJOFOFNL": "combatNormal",
+                    "HBPCGNIGHPH": {
+                        "PAHCFHPHLOJ": 10.0
+                    },
                     "NFMGGPBFCBK": [
                         {}
                     ],
-                    "CMJPCCCIGIH": "",
-                    "JHDECFFCOBN": true
+                    "CMJPCCCIGIH": ""
                 },
-                "ExtraAttack_AS": {
+                "Collei_ElementalBurst": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
-                        "ExtraAttack_AS": [
-                            "Audio_Girl_Sword_PlayerGirl_ExtraAtk_AS"
+                        "Collei_ElementalBurst": [
+                            "Collei_ElementalBurst",
+                            "Audio_Lady_Bow_Collei_ElementalBurst",
+                            "Emo_Lady_Bow_Collei_ElementalBurst"
+                        ]
+                    },
+                    "moveType": "combatMove",
+                    "KEHIJHBHAFK": 0.0,
+                    "KJALBKOJAJE": [
+                        "BeHit"
+                    ],
+                    "GIALJOFOFNL": "combatNormal",
+                    "ECMNPJFELOJ": -1.0,
+                    "BEELMIKLFEI": -1.0,
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
+                },
+                "Collei_ElementalBurst_AS": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "Collei_ElementalBurst_AS": [
+                            "Audio_Lady_Bow_Collei_ElementalBurst_AS",
+                            "Emo_Lady_Bow_Collei_ElementalBurst_AS"
                         ]
                     },
                     "moveType": "combatMove",
                     "KGOCGKMHPKM": true,
                     "KJALBKOJAJE": [
-                        "BeHit"
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
                     ],
                     "PEPOMHIGAEL": [
                         {
                             "name": "&CanCancelSkill"
+                        },
+                        {
+                            "name": "&CanUseSkill",
+                            "normalizeStart": 0.10000000149011612
                         }
                     ],
                     "GIALJOFOFNL": "combatNormal",
@@ -1165,122 +1197,98 @@
                     ],
                     "CMJPCCCIGIH": ""
                 },
-                "UziExplode_BS": {
+                "FallingAnthem_BS": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
-                        "UziExplode_BS": [
-                            "Player_UziExplode_BS",
-                            "Audio_Boy_Sword_UziExplode_BS",
-                            "Audio_Girl_UziExplode_BS_PlayerGirl"
+                        "FallingAnthem_BS_1": [
+                            "Audio_Girl_Bow_Collei_FallingAnthem_BS_1",
+                            "Emo_Boy_Bow_FallingAttack_BS_01"
+                        ],
+                        "FallingAnthem_BS_2": [
+                            "Emo_Boy_Bow_FallingAttack_BS_02"
                         ]
                     },
-                    "moveType": "combatMove",
-                    "KEHIJHBHAFK": 20.0,
+                    "moveType": "combatAir",
+                    "KEHIJHBHAFK": 0.0,
                     "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill",
                         "Jump"
                     ],
                     "GIALJOFOFNL": "combatNormal",
-                    "CMJPCCCIGIH": "",
-                    "LJKLGHMMIMP": true
+                    "KJKDEGJBPHA": "Fly",
+                    "EBNDLOKFJKN": [
+                        {
+                            "equip": "equip01",
+                            "KJDAFOJGIGD": "WeaponR2"
+                        }
+                    ],
+                    "ECMNPJFELOJ": -1.0,
+                    "CMJPCCCIGIH": "HitAir2HitDrop",
+                    "JHDECFFCOBN": true
                 },
-                "UziExplode_BS_1": {
+                "FallingAnthem_Loop": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
-                        "UziExplode_BS_1": [
-                            "Audio_Girl_UziExplode_BS_1_PlayerGirl"
-                        ]
+                        "FallingAnthem_Loop": [],
+                        "FallingAnthem_Loop_Low": []
                     },
-                    "moveType": "combatMove",
-                    "KEHIJHBHAFK": 20.0,
+                    "moveType": "combatAir",
+                    "KEHIJHBHAFK": 0.0,
                     "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill",
                         "Jump"
                     ],
-                    "GIALJOFOFNL": "combatNormal",
-                    "CMJPCCCIGIH": "",
-                    "LJKLGHMMIMP": true
+                    "KJKDEGJBPHA": "Fly",
+                    "EBNDLOKFJKN": [
+                        {
+                            "equip": "equip01",
+                            "KJDAFOJGIGD": "WeaponR2"
+                        }
+                    ],
+                    "CMJPCCCIGIH": "HitAir2HitDrop",
+                    "JHDECFFCOBN": true
                 },
-                "UziExplode_Charge_01": {
+                "FallingAnthem_AS_1": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
-                        "UziExplode_Charge_01": [
-                            "Audio_Girl_Sword_PlayerGirl_UziExplode_Charge"
+                        "FallingAnthem_AS_1": [
+                            "Collei_FallingAnthem_Strike",
+                            "Interaction_Bad",
+                            "Audio_Girl_Bow_Collei_FallingAnthem_AS_1",
+                            "Emo_Boy_Bow_FallingAttack_AS_01"
                         ]
                     },
                     "moveType": "combatMove",
-                    "KEHIJHBHAFK": 20.0,
+                    "KGOCGKMHPKM": true,
                     "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill",
                         "Jump"
                     ],
-                    "GIALJOFOFNL": "combatNormal",
-                    "CMJPCCCIGIH": "",
-                    "LJKLGHMMIMP": true
-                },
-                "UziExplode_Charge_02": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
-                        "UziExplode_Charge_02": [
-                            "Audio_Girl_Sword_PlayerGirl_UziExplode_Charge"
-                        ]
-                    },
-                    "moveType": "combatMove",
-                    "KEHIJHBHAFK": 20.0,
-                    "KJALBKOJAJE": [
-                        "BeHit",
-                        "DoSkill",
-                        "Jump"
+                    "PEPOMHIGAEL": [
+                        {
+                            "name": "&CanUseSkill",
+                            "normalizeStart": 0.8999999761581421
+                        }
                     ],
-                    "GIALJOFOFNL": "combatNormal",
-                    "CMJPCCCIGIH": "",
-                    "LJKLGHMMIMP": true
-                },
-                "UziExplode_Strike_01": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
-                        "UziExplode_Strike_01": [
-                            "Player_UziExplode_Strike_01",
-                            "Audio_Girl_UziExplode_Strike_01_PlayerGirl"
-                        ]
-                    },
-                    "moveType": "combatMove",
-                    "KEHIJHBHAFK": 20.0,
-                    "KJALBKOJAJE": [
-                        "BeHit",
-                        "DoSkill",
-                        "Jump"
+                    "EBNDLOKFJKN": [
+                        {
+                            "equip": "equip01",
+                            "KJDAFOJGIGD": "WeaponR2"
+                        }
                     ],
-                    "GIALJOFOFNL": "combatNormal",
+                    "ECMNPJFELOJ": -1.0,
                     "CMJPCCCIGIH": "",
-                    "LJKLGHMMIMP": true
+                    "JHDECFFCOBN": true
                 },
-                "UziExplode_Strike_02": {
+                "FallingAnthem_AS_2": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
-                        "UziExplode_Strike_02": [
-                            "Player_UziExplode_Strike_02"
-                        ]
-                    },
-                    "moveType": "combatMove",
-                    "KEHIJHBHAFK": 20.0,
-                    "KJALBKOJAJE": [
-                        "BeHit",
-                        "DoSkill",
-                        "Jump"
-                    ],
-                    "GIALJOFOFNL": "combatNormal",
-                    "CMJPCCCIGIH": "",
-                    "LJKLGHMMIMP": true
-                },
-                "UziExplode_AS": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
-                        "UziExplode_AS": [
-                            "Audio_Girl_UziExplode_AS_PlayerGirl"
+                        "FallingAnthem_AS_2": [
+                            "Audio_Girl_Bow_Ambor_FallingAnthem_AS_2",
+                            "Emo_Boy_Bow_FallingAttack_AS_02"
                         ]
                     },
                     "moveType": "combatMove",
@@ -1295,232 +1303,427 @@
                             "name": "&CanUseSkill"
                         }
                     ],
-                    "GIALJOFOFNL": "combatNormal",
+                    "NFMGGPBFCBK": [
+                        {}
+                    ],
+                    "EBNDLOKFJKN": [
+                        {
+                            "equip": "equip01",
+                            "KJDAFOJGIGD": "WeaponR2"
+                        }
+                    ],
+                    "DIGMLHLHAID": 0.10000000149011612,
+                    "CMJPCCCIGIH": "",
+                    "JHDECFFCOBN": true
+                },
+                "Sit": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "SitDown": [
+                            "Audio_Girl_SitDown",
+                            "Audio_Lady_Sit_Collei"
+                        ],
+                        "SitLoop": [],
+                        "SitUp": [
+                            "Audio_Girl_SitDown",
+                            "Audio_Lady_Sit_Collei"
+                        ]
+                    },
+                    "moveType": "performMove",
+                    "FPHAEGEAAOE": 100.0,
+                    "KJKDEGJBPHA": "Perform",
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
+                },
+                "SitB": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "SitBDown": [
+                            "Audio_Girl_SitDown",
+                            "Audio_Lady_Sit_Collei"
+                        ],
+                        "SitBLoop": [],
+                        "SitBUp": [
+                            "Audio_Girl_SitDown",
+                            "Audio_Lady_Sit_Collei"
+                        ]
+                    },
+                    "moveType": "performMove",
+                    "FPHAEGEAAOE": 100.0,
+                    "KJKDEGJBPHA": "Perform",
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
+                },
+                "StandbyShow": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "StandbyVoice": [
+                            "Audio_Lady_StandbyVoice"
+                        ],
+                        "StandbyShow_01": [
+                            "Manekin_Collei_Show01",
+                            "Audio_Lady_Bow_Collei_StandbyShow_01_SFX"
+                        ],
+                        "StandbyShow_02": [
+                            "Manekin_Collei_Show02",
+                            "Audio_Lady_Bow_Collei_StandbyShow_02_SFX"
+                        ]
+                    },
+                    "moveType": "performMove",
+                    "KGOCGKMHPKM": true,
+                    "FPHAEGEAAOE": 100.0,
+                    "PEPOMHIGAEL": [
+                        {
+                            "name": "&CanUseSkill"
+                        }
+                    ],
                     "NFMGGPBFCBK": [
                         {}
                     ],
                     "CMJPCCCIGIH": "",
                     "LJKLGHMMIMP": true
                 },
-                "WindBreathe": {
+                "TakePhotos": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
-                        "WindBreathe": [
-                            "Player_WindBreathe",
-                            "Audio_Boy_Sword_WindBreathe_BS",
-                            "Audio_Girl_WindBreathe_PlayerGirl"
-                        ]
+                        "Think01BS": [],
+                        "Akimbo02BS": [],
+                        "Think01Loop": [],
+                        "Akimbo02Loop": [],
+                        "Think01AS": [],
+                        "Akimbo02AS": []
                     },
-                    "moveType": "combatMove",
-                    "KEHIJHBHAFK": 80.0,
-                    "KJALBKOJAJE": [
-                        "BeHit"
-                    ],
-                    "GIALJOFOFNL": "combatNormal",
-                    "CMJPCCCIGIH": "",
-                    "JHDECFFCOBN": true
+                    "CMJPCCCIGIH": ""
                 },
-                "WindBreathe_AS": {
+                "Channel_BS": {
                     "$type": "ConfigAvatarStateIDInfo",
                     "PINCPDEEFJI": {
-                        "WindBreathe_AS": [
-                            "Audio_Girl_WindBreathe_AS_PlayerGirl"
+                        "ChannelBS": [
+                            "Emo_Avatar_Common_Manekin_Default"
                         ]
                     },
                     "moveType": "combatMove",
                     "KGOCGKMHPKM": true,
-                    "KJALBKOJAJE": [
-                        "BeHit",
-                        "DoSkill",
-                        "Jump"
-                    ],
-                    "PEPOMHIGAEL": [
-                        {
-                            "name": "&CanUseSkill",
-                            "normalizeStart": 0.25
-                        }
-                    ],
-                    "GIALJOFOFNL": "combatNormal",
-                    "NFMGGPBFCBK": [
-                        {
-                            "normalizeStart": 0.10000000149011612
-                        }
-                    ],
-                    "CMJPCCCIGIH": "",
-                    "JHDECFFCOBN": true
-                },
-                "Hogyoku": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
-                        "Hogyoku": [
-                            "Player_Hogyoku",
-                            "Audio_Boy_Sword_Hogyoku_BS",
-                            "Audio_Girl_Hogyoku_PlayerGirl"
-                        ]
-                    },
-                    "moveType": "combatMove",
-                    "KEHIJHBHAFK": 20.0,
-                    "KJALBKOJAJE": [
-                        "BeHit",
-                        "DoSkill",
-                        "Jump"
-                    ],
-                    "GIALJOFOFNL": "combatNormal",
-                    "CMJPCCCIGIH": "",
-                    "LJKLGHMMIMP": true
-                },
-                "Hogyoku_AS": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
-                        "Hogyoku_AS": [
-                            "Audio_Girl_Hogyoku_AS_PlayerGirl"
-                        ]
-                    },
-                    "moveType": "combatMove",
-                    "KGOCGKMHPKM": true,
-                    "KJALBKOJAJE": [
-                        "BeHit",
-                        "DoSkill",
-                        "Jump"
-                    ],
-                    "PEPOMHIGAEL": [
-                        {
-                            "name": "&CanUseSkill",
-                            "normalizeStart": 0.25
-                        }
-                    ],
-                    "GIALJOFOFNL": "combatNormal",
-                    "NFMGGPBFCBK": [
-                        {
-                            "normalizeStart": 0.10000000149011612
-                        }
-                    ],
-                    "CMJPCCCIGIH": "",
-                    "LJKLGHMMIMP": true
-                },
-                "RockTide": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
-                        "RockTide": [
-                            "Player_RockTide",
-                            "Audio_Girl_RockTide_PlayerGirl"
-                        ]
-                    },
-                    "moveType": "combatMove",
-                    "KEHIJHBHAFK": 80.0,
-                    "KJALBKOJAJE": [
-                        "BeHit"
-                    ],
-                    "GIALJOFOFNL": "combatNormal",
-                    "CMJPCCCIGIH": "",
-                    "LJKLGHMMIMP": true
-                },
-                "RockTide_AS": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
-                        "RockTide_AS": [
-                            "Audio_Girl_RockTide_AS_PlayerGirl"
-                        ]
-                    },
-                    "moveType": "combatMove",
-                    "KGOCGKMHPKM": true,
-                    "KJALBKOJAJE": [
-                        "BeHit",
-                        "DoSkill",
-                        "Jump"
-                    ],
-                    "PEPOMHIGAEL": [
-                        {
-                            "name": "&CanUseSkill",
-                            "normalizeStart": 0.25
-                        }
-                    ],
-                    "GIALJOFOFNL": "combatNormal",
-                    "NFMGGPBFCBK": [
-                        {
-                            "normalizeStart": 0.10000000149011612
-                        }
-                    ],
-                    "CMJPCCCIGIH": "",
-                    "LJKLGHMMIMP": true
-                },
-                "CrouchThrowBS": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
-                        "CrouchThrowBS": [
-                            "CrouchThrow_TurnDirection",
-                            "Audio_Girl_Crossbow_Dummy_Hold"
-                        ]
-                    },
-                    "moveType": "combatMove",
-                    "KEHIJHBHAFK": 20.0,
-                    "KJALBKOJAJE": [
-                        "BeHit",
-                        "DoSkill",
-                        "Jump"
-                    ],
-                    "KJKDEGJBPHA": "Squat",
-                    "CMJPCCCIGIH": ""
-                },
-                "CrouchThrowLoop": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
-                        "CrouchThrowLoop": []
-                    },
-                    "moveType": "combatMove",
-                    "KEHIJHBHAFK": 20.0,
-                    "KJALBKOJAJE": [
-                        "BeHit",
-                        "DoSkill",
-                        "Jump"
-                    ],
-                    "KJKDEGJBPHA": "Squat",
-                    "CMJPCCCIGIH": ""
-                },
-                "CrouchThrowAS": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
-                        "CrouchThrowAS": [
-                            "CrouchThrow_AS",
-                            "Audio_Girl_Crossbow_Dummy_Middle"
-                        ]
-                    },
-                    "moveType": "combatMove",
-                    "OBACGMAOFBH": [
-                        "BeHit"
-                    ],
-                    "KJALBKOJAJE": [
-                        "BeHit",
-                        "DoSkill",
-                        "Jump"
-                    ],
-                    "PEPOMHIGAEL": [
-                        {
-                            "name": "&CanCancelSkill",
-                            "normalizeStart": 0.25
-                        }
-                    ],
-                    "KJKDEGJBPHA": "Squat",
-                    "CMJPCCCIGIH": ""
-                },
-                "Sit": {
-                    "$type": "ConfigAvatarStateIDInfo",
-                    "PINCPDEEFJI": {
-                        "SitDown": [],
-                        "SitLoop": [],
-                        "SitUp": []
-                    },
-                    "moveType": "performMove",
                     "FPHAEGEAAOE": 100.0,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
+                    ],
+                    "PEPOMHIGAEL": [
+                        {
+                            "name": "&CanUseSkill"
+                        }
+                    ],
+                    "NFMGGPBFCBK": [
+                        {}
+                    ],
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
+                },
+                "Channel_Loop": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "ChannelLoop": []
+                    },
+                    "moveType": "combatMove",
+                    "KGOCGKMHPKM": true,
+                    "FPHAEGEAAOE": 100.0,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
+                    ],
+                    "PEPOMHIGAEL": [
+                        {
+                            "name": "&CanUseSkill"
+                        }
+                    ],
+                    "NFMGGPBFCBK": [
+                        {}
+                    ],
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
+                },
+                "Channel_AS": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "ChannelAS": []
+                    },
+                    "moveType": "combatMove",
+                    "KGOCGKMHPKM": true,
+                    "FPHAEGEAAOE": 100.0,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
+                    ],
+                    "PEPOMHIGAEL": [
+                        {
+                            "name": "&CanUseSkill"
+                        }
+                    ],
+                    "NFMGGPBFCBK": [
+                        {}
+                    ],
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
+                },
+                "PlayMusic_Lyre": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "PlayMusic_Lyre_BS": [
+                            "PlayMusic_Lyre_Lady",
+                            "Audio_Char_Common_PlayMusic_Lyrc_BS"
+                        ],
+                        "PlayMusic_Lyre_Loop": []
+                    },
+                    "moveType": "combatMove",
+                    "FPHAEGEAAOE": 100.0,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
+                    ],
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
+                },
+                "PlayMusic_Lyre_AS": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "PlayMusic_Lyre_AS": [
+                            "PlayMusic_Lyre_Lady_AS",
+                            "Audio_Char_Common_PlayMusic_Lyrc_AS"
+                        ]
+                    },
+                    "moveType": "combatMove",
+                    "KGOCGKMHPKM": true,
+                    "FPHAEGEAAOE": 100.0,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
+                    ],
+                    "PEPOMHIGAEL": [
+                        {
+                            "name": "&CanUseSkill"
+                        }
+                    ],
+                    "NFMGGPBFCBK": [
+                        {}
+                    ],
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
+                },
+                "PlayMusic_Qin": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "PlayMusic_Qin_BS": [
+                            "PlayMusic_Qin_Lady"
+                        ],
+                        "PlayMusic_Qin_Loop": []
+                    },
+                    "moveType": "combatMove",
+                    "FPHAEGEAAOE": 100.0,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
+                    ],
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
+                },
+                "PlayMusic_Qin_AS": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "PlayMusic_Qin_AS": [
+                            "PlayMusic_Qin_Lady_AS"
+                        ]
+                    },
+                    "moveType": "combatMove",
+                    "KGOCGKMHPKM": true,
+                    "FPHAEGEAAOE": 100.0,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
+                    ],
+                    "PEPOMHIGAEL": [
+                        {
+                            "name": "&CanUseSkill"
+                        }
+                    ],
+                    "NFMGGPBFCBK": [
+                        {}
+                    ],
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
+                },
+                "PlayMusic_Drum": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "PlayMusic_Drum_BS": [
+                            "PlayMusic_Drum_Lady"
+                        ],
+                        "PlayMusic_Drum_Loop": []
+                    },
+                    "moveType": "combatMove",
+                    "FPHAEGEAAOE": 100.0,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
+                    ],
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
+                },
+                "PlayMusic_Drum_AS": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "PlayMusic_Drum_AS": [
+                            "PlayMusic_Drum_Lady_AS"
+                        ]
+                    },
+                    "moveType": "combatMove",
+                    "KGOCGKMHPKM": true,
+                    "FPHAEGEAAOE": 100.0,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
+                    ],
+                    "PEPOMHIGAEL": [
+                        {
+                            "name": "&CanUseSkill"
+                        }
+                    ],
+                    "NFMGGPBFCBK": [
+                        {}
+                    ],
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
+                },
+                "ActivitySkill_ElectricCoreFly": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "ActivitySkill_ElectricCoreFly": []
+                    },
+                    "moveType": "combatAir",
+                    "FPHAEGEAAOE": 100.0,
+                    "OBACGMAOFBH": [
+                        "ElectricCoreFly_End"
+                    ],
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump",
+                        "ElectricCoreFly_End"
+                    ],
                     "CMJPCCCIGIH": "",
                     "LJKLGHMMIMP": true
                 }
             }
+        },
+        "aimShootLayer": {
+            "$type": "ConfigNormalStateLayer",
+            "ILGOPNKMKDG": 6,
+            "JLAFELOFEGB": "AimShootLayer",
+            "stateIDs": {
+                "AimShoot": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "NJDDMHGDEMN": -1,
+                    "PINCPDEEFJI": {
+                        "AimShoot": [
+                            "Collei_AimShoot",
+                            "Audio_Lady_Bow_Collei_Aim_Shoot",
+                            "Emo_Lady_Bow_Collei_Fight_AimAttack"
+                        ]
+                    },
+                    "moveType": "combatMove",
+                    "KGOCGKMHPKM": true,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
+                    ],
+                    "IOAFHADKMDP": true,
+                    "KJKDEGJBPHA": "Aim",
+                    "CMJPCCCIGIH": "",
+                    "JHDECFFCOBN": true
+                },
+                "FastAimShoot": {
+                    "$type": "ConfigAvatarStateIDInfo",
+                    "NJDDMHGDEMN": -1,
+                    "PINCPDEEFJI": {
+                        "FastAimShoot": [
+                            "Collei_AimShoot",
+                            "Audio_Lady_Bow_Collei_Fast_Aim_Shoot",
+                            "Emo_Lady_Bow_Collei_Fight_AimAttack"
+                        ]
+                    },
+                    "moveType": "combatMove",
+                    "KGOCGKMHPKM": true,
+                    "KJALBKOJAJE": [
+                        "BeHit",
+                        "DoSkill",
+                        "Jump"
+                    ],
+                    "IOAFHADKMDP": true,
+                    "KJKDEGJBPHA": "FastAim",
+                    "CMJPCCCIGIH": "",
+                    "JHDECFFCOBN": true
+                }
+            }
+        }
+    },
+    "shootConfig": {
+        "normalShoot": {
+            "bulletBornAttachPoint": "PRIVATE_LHand",
+            "detectRangeFromViewport": 100.0,
+            "autoFocusMaxRange": 2.0,
+            "autoFocusMinRange": 7.0
+        },
+        "aimingShoot": {
+            "bulletBornAttachPoint": "FocusAnchor",
+            "detectRangeFromViewport": 100.0,
+            "detectRadiusFromViewport": 0.15000000596046448,
+            "autoFocusMaxRange": 2.0,
+            "autoFocusMinRange": 25.0
         }
     },
     "audio": {
         "animAudio": {
             "onTransitionIn": [
+                {
+                    "currentStateName": "AimLoop",
+                    "audioEvent": {
+                        "text": "Play_sfx_weapon_bow_aimFocus"
+                    }
+                },
+                {
+                    "currentStateName": "AimLoop",
+                    "audioEvent": {
+                        "text": "Play_sfx_char_ambor_arrow_fire_aim_start"
+                    }
+                },
+                {
+                    "currentStateName": "FastAimLoop",
+                    "audioEvent": {
+                        "text": "Play_sfx_weapon_bow_aimFocus"
+                    }
+                },
+                {
+                    "currentStateName": "SlipFaceWall",
+                    "audioEvent": {
+                        "text": "Play_sfx_char_slipWall"
+                    }
+                },
+                {
+                    "currentStateName": "SlipBackWall",
+                    "audioEvent": {
+                        "text": "Play_sfx_char_slipWall"
+                    }
+                },
                 {
                     "currentStateName": "NormalDie",
                     "audioEvent": {
@@ -1534,33 +1737,93 @@
                 {
                     "currentStateName": "SprintBS",
                     "audioEvent": {
+                        "text": "Play_sfx_char_ambor_gack_heavy"
+                    }
+                },
+                {
+                    "currentStateName": "SprintBS",
+                    "audioEvent": {
                         "text": "Play_sfx_char_foley_flutter_heavy"
                     }
                 },
                 {
-                    "currentStateName": "CrouchIdle",
+                    "currentStateName": "SwimJumpToWater",
                     "audioEvent": {
-                        "text": "Play_sfx_char_foley_cloth_middle"
+                        "text": "Stop_sfx_char_swim_dive"
+                    }
+                },
+                {
+                    "currentStateName": "SwimDash",
+                    "audioEvent": {
+                        "text": "Play_sfx_char_swim_dash"
+                    }
+                },
+                {
+                    "currentStateName": "Standby",
+                    "audioEvent": {
+                        "text": "Stop_sfx_char_fly"
                     }
                 }
             ],
             "onTransitionOut": [
                 {
+                    "currentStateName": "Attack01",
+                    "audioEvent": {
+                        "text": "Stop_sfx_char_Collei_bow_attack"
+                    }
+                },
+                {
+                    "currentStateName": "Attack02",
+                    "audioEvent": {
+                        "text": "Stop_sfx_char_Collei_bow_attack"
+                    }
+                },
+                {
+                    "currentStateName": "Attack03",
+                    "audioEvent": {
+                        "text": "Stop_sfx_char_Collei_bow_attack"
+                    }
+                },
+                {
+                    "currentStateName": "Attack04",
+                    "audioEvent": {
+                        "text": "Stop_sfx_char_Collei_bow_attack"
+                    }
+                },
+                {
+                    "currentStateName": "Attack05",
+                    "audioEvent": {
+                        "text": "Stop_sfx_char_Collei_bow_attack"
+                    }
+                },
+                {
+                    "currentStateName": "StandbyShow_01",
+                    "audioEvent": {
+                        "text": "Stop_sfx_standbyShow_Collei_swing"
+                    }
+                },
+                {
+                    "currentStateName": "StandbyShow_02",
+                    "audioEvent": {
+                        "text": "Stop_sfx_standbyShow_Collei_fan"
+                    }
+                },
+                {
                     "currentStateName": "StandbyPutaway",
                     "audioEvent": {
-                        "text": "Stop_sfx_weapon_1HSword_lady_putAwayStandby"
+                        "text": "Stop_sfx_weapon_bow_lady_putAway"
                     }
                 },
                 {
                     "currentStateName": "WalkPutaway",
                     "audioEvent": {
-                        "text": "Stop_sfx_weapon_1HSword_lady_putAwayStandby"
+                        "text": "Stop_sfx_weapon_bow_lady_putAway"
                     }
                 },
                 {
                     "currentStateName": "RunPutaway",
                     "audioEvent": {
-                        "text": "Stop_sfx_weapon_1HSword_lady_putAwayStandby"
+                        "text": "Stop_sfx_weapon_bow_lady_putAway"
                     }
                 },
                 {
@@ -1768,37 +2031,25 @@
                     }
                 },
                 {
-                    "currentStateName": "Standby",
+                    "currentStateName": "AimLoop",
                     "audioEvent": {
-                        "text": "Play_sfx_char_foley_flutter_light"
+                        "text": "Play_sfx_weapon_bow_girl_aimNormal"
                     },
                     "otherStateNames": [
-                        "Walk",
-                        "Run"
+                        "AimShoot"
                     ],
-                    "usage": "InSet"
+                    "usage": "Except"
                 },
                 {
-                    "currentStateName": "StandbyWeapon",
+                    "currentStateName": "AimLoop",
                     "audioEvent": {
-                        "text": "Play_sfx_char_foley_flutter_light"
-                    },
-                    "otherStateNames": [
-                        "WalkWeapon",
-                        "RunWeapon"
-                    ],
-                    "usage": "InSet"
-                },
-                {
-                    "currentStateName": "SlipFaceWall",
-                    "audioEvent": {
-                        "text": "Play_sfx_char_land"
+                        "text": "Stop_sfx_fx_arrow_fire_aim"
                     }
                 },
                 {
-                    "currentStateName": "SlipBackWall",
+                    "currentStateName": "FastAimLoop",
                     "audioEvent": {
-                        "text": "Play_sfx_char_land"
+                        "text": "Stop_sfx_fx_arrow_fire_aim"
                     }
                 },
                 {
@@ -1811,6 +2062,24 @@
                     "currentStateName": "SlipBackWall",
                     "audioEvent": {
                         "text": "Stop_sfx_char_drop"
+                    }
+                },
+                {
+                    "currentStateName": "SlipFaceWall",
+                    "audioEvent": {
+                        "text": "Stop_sfx_char_slipWall"
+                    }
+                },
+                {
+                    "currentStateName": "SlipBackWall",
+                    "audioEvent": {
+                        "text": "Stop_sfx_char_slipWall"
+                    }
+                },
+                {
+                    "currentStateName": "Fly",
+                    "audioEvent": {
+                        "text": "Stop_sfx_char_fly"
                     }
                 }
             ],
@@ -1825,7 +2094,7 @@
                         "upper": 34.0
                     },
                     "eventName": {
-                        "text": "Play_vo_char_explore_idle"
+                        "text": ""
                     }
                 },
                 "Walk": {
@@ -1904,10 +2173,10 @@
             ]
         },
         "voiceSwitch": {
-            "text": "Switch_Heroine"
+            "text": "Switch_kujouCollei"
         },
         "bodyTypeSwitch": {
-            "text": "Switch_Girl"
+            "text": "Switch_Lady"
         },
         "listenerLiftup": 1.5,
         "surfaceProberLiftup": 1.5
@@ -1921,7 +2190,7 @@
                         "effect": "Eff_Character_Snow_Footprint",
                         "deformation": ""
                     },
-                    "allNoTessellation": {
+                    "PCNoTessellation": {
                         "effect": "Eff_Character_Snow_Footprint",
                         "deformation": ""
                     },
@@ -1939,7 +2208,7 @@
                         "effect": "Eff_Character_Snow_Footprint",
                         "deformation": ""
                     },
-                    "allNoTessellation": {
+                    "PCNoTessellation": {
                         "effect": "Eff_Character_Snow_Footprint",
                         "deformation": ""
                     },
@@ -1971,6 +2240,18 @@
                     }
                 }
             }
+        }
+    },
+    "perform": {
+        "standby": {
+            "poseID": 10.0,
+            "maxTime": 20.0,
+            "performIDs": [
+                201,
+                202,
+                200,
+                200
+            ]
         }
     }
 }
