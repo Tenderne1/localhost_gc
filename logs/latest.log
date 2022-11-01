@@ -1,0 +1,269 @@
+2022-10-30T22:04:21Z <INFO:emu.grasscutter.Grasscutter> ÕıÔÚÆô¶¯ Grasscutter...
+2022-10-30T22:04:21Z <INFO:emu.grasscutter.Grasscutter> ÓÎÏ·°æ±¾£º3.1.0
+2022-10-30T22:04:21Z <INFO:emu.grasscutter.Grasscutter> Grasscutter °æ±¾£º1.4.3-dev-855d3182
+2022-10-30T22:04:21Z <INFO:emu.grasscutter.data.ResourceLoader> ÕıÔÚ¼ÓÔØ resources...
+2022-10-30T22:04:25Z <INFO:emu.grasscutter.data.ResourceLoader> Íê³É¼ÓÔØ resources¡£
+2022-10-30T22:04:25Z <INFO:emu.grasscutter.utils.Language> Generating TextMaps cache
+2022-10-30T22:04:27Z <INFO:emu.grasscutter.tools.Tools> GM Handbooks generated!
+2022-10-30T22:04:28Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:04:28Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºopencommand-plugin
+2022-10-30T22:04:28Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºsetLevel
+2022-10-30T22:04:28Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:04:28Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been loaded.
+2022-10-30T22:04:29Z <INFO:emu.grasscutter.server.http.HttpServer> [Dispatch] Dispatch ·şÎñÆ÷Æô¶¯ÓÚ [1m[33m192.168.0.108:443[0m
+2022-10-30T22:04:29Z <INFO:emu.grasscutter.server.game.GameServer> Grasscutter ÊÇÃâ·Ñ¿ªÔ´Èí¼ş£¬×ñÑ­ AGPL-3.0 license¡£
+	Èç¹ûÄãÊÇ¸¶·Ñ¹ºÂòµÄ£¬ÄÇÄãÒÑ¾­±»Æ­ÁË¡£
+	ÏîÄ¿µØÖ·£ºhttps://github.com/Grasscutters/Grasscutter
+2022-10-30T22:04:29Z <INFO:emu.grasscutter.server.game.GameServer> ÓÎÏ··şÎñÆ÷Æô¶¯ÓÚ [1m[33m192.168.0.108:22102[0m
+2022-10-30T22:04:29Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:04:29Z <INFO:snoobi.bignose.GiveArtifactSnoo> The Give Artifact plugin has been enabled.
+2022-10-30T22:04:29Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºopencommand-plugin
+2022-10-30T22:04:29Z <INFO:com.github.jie65535.opencommand.OpenCommandPlugin> [OpenCommand] Enabled
+2022-10-30T22:04:29Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºsetLevel
+2022-10-30T22:04:29Z <INFO:thorny.grasscutters.setLevel.setLevel> The setLevel plugin has been enabled.
+2022-10-30T22:04:29Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:04:29Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been enabled.
+2022-10-30T22:04:29Z <INFO:emu.grasscutter.Grasscutter> ¼ÓÔØÍê³É£¡ÊäÈë "help" ²é¿´ÃüÁîÁĞ±í
+2022-10-30T22:06:05Z <INFO:emu.grasscutter.Grasscutter> Press Ctrl-C again to shutdown.
+2022-10-30T22:06:06Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:06:06Z <INFO:snoobi.bignose.GiveArtifactSnoo> The GiveArt plugin died lol
+2022-10-30T22:06:06Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºopencommand-plugin
+2022-10-30T22:06:06Z <INFO:com.github.jie65535.opencommand.OpenCommandPlugin> [OpenCommand] Disabled
+2022-10-30T22:06:06Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºsetLevel
+2022-10-30T22:06:06Z <INFO:thorny.grasscutters.setLevel.setLevel> How could you do this to me... setLevel has been disabled.
+2022-10-30T22:06:06Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:06:06Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been disabled.
+2022-10-30T22:06:23Z <INFO:emu.grasscutter.Grasscutter> ÕıÔÚÆô¶¯ Grasscutter...
+2022-10-30T22:06:23Z <INFO:emu.grasscutter.Grasscutter> ÓÎÏ·°æ±¾£º3.1.0
+2022-10-30T22:06:23Z <INFO:emu.grasscutter.Grasscutter> Grasscutter °æ±¾£º1.4.3-dev-855d3182
+2022-10-30T22:06:23Z <INFO:emu.grasscutter.data.ResourceLoader> ÕıÔÚ¼ÓÔØ resources...
+2022-10-30T22:06:25Z <INFO:emu.grasscutter.data.ResourceLoader> Íê³É¼ÓÔØ resources¡£
+2022-10-30T22:06:25Z <INFO:emu.grasscutter.utils.Language> Loading cached TextMaps
+2022-10-30T22:06:26Z <INFO:emu.grasscutter.tools.Tools> GM Handbooks generated!
+2022-10-30T22:06:27Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:06:27Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºopencommand-plugin
+2022-10-30T22:06:27Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºsetLevel
+2022-10-30T22:06:27Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:06:27Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been loaded.
+2022-10-30T22:06:28Z <INFO:emu.grasscutter.server.http.HttpServer> [Dispatch] Dispatch ·şÎñÆ÷Æô¶¯ÓÚ [1m[33m127.0.0.1:80[0m
+2022-10-30T22:06:28Z <INFO:emu.grasscutter.server.game.GameServer> Grasscutter ÊÇÃâ·Ñ¿ªÔ´Èí¼ş£¬×ñÑ­ AGPL-3.0 license¡£
+	Èç¹ûÄãÊÇ¸¶·Ñ¹ºÂòµÄ£¬ÄÇÄãÒÑ¾­±»Æ­ÁË¡£
+	ÏîÄ¿µØÖ·£ºhttps://github.com/Grasscutters/Grasscutter
+2022-10-30T22:06:28Z <INFO:emu.grasscutter.server.game.GameServer> ÓÎÏ··şÎñÆ÷Æô¶¯ÓÚ [1m[33m127.0.0.1:22102[0m
+2022-10-30T22:06:28Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:06:28Z <INFO:snoobi.bignose.GiveArtifactSnoo> The Give Artifact plugin has been enabled.
+2022-10-30T22:06:28Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºopencommand-plugin
+2022-10-30T22:06:28Z <INFO:com.github.jie65535.opencommand.OpenCommandPlugin> [OpenCommand] Enabled
+2022-10-30T22:06:28Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºsetLevel
+2022-10-30T22:06:28Z <INFO:thorny.grasscutters.setLevel.setLevel> The setLevel plugin has been enabled.
+2022-10-30T22:06:28Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:06:28Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been enabled.
+2022-10-30T22:06:28Z <INFO:emu.grasscutter.Grasscutter> ¼ÓÔØÍê³É£¡ÊäÈë "help" ²é¿´ÃüÁîÁĞ±í
+2022-10-30T22:07:49Z <INFO:emu.grasscutter.Grasscutter> Press Ctrl-C again to shutdown.
+2022-10-30T22:07:49Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:07:49Z <INFO:snoobi.bignose.GiveArtifactSnoo> The GiveArt plugin died lol
+2022-10-30T22:07:49Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºopencommand-plugin
+2022-10-30T22:07:49Z <INFO:com.github.jie65535.opencommand.OpenCommandPlugin> [OpenCommand] Disabled
+2022-10-30T22:07:49Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºsetLevel
+2022-10-30T22:07:49Z <INFO:thorny.grasscutters.setLevel.setLevel> How could you do this to me... setLevel has been disabled.
+2022-10-30T22:07:49Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:07:49Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been disabled.
+2022-10-30T22:09:26Z <INFO:emu.grasscutter.Grasscutter> ÕıÔÚÆô¶¯ Grasscutter...
+2022-10-30T22:09:26Z <INFO:emu.grasscutter.Grasscutter> ÓÎÏ·°æ±¾£º3.1.0
+2022-10-30T22:09:26Z <INFO:emu.grasscutter.Grasscutter> Grasscutter °æ±¾£º1.4.3-dev-855d3182
+2022-10-30T22:09:26Z <INFO:emu.grasscutter.data.ResourceLoader> ÕıÔÚ¼ÓÔØ resources...
+2022-10-30T22:09:28Z <INFO:emu.grasscutter.data.ResourceLoader> Íê³É¼ÓÔØ resources¡£
+2022-10-30T22:09:28Z <INFO:emu.grasscutter.utils.Language> Loading cached TextMaps
+2022-10-30T22:09:29Z <INFO:emu.grasscutter.tools.Tools> GM Handbooks generated!
+2022-10-30T22:09:30Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:09:30Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºopencommand-plugin
+2022-10-30T22:09:30Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºsetLevel
+2022-10-30T22:09:30Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:09:30Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been loaded.
+2022-10-30T22:09:31Z <INFO:emu.grasscutter.server.http.HttpServer> [Dispatch] Dispatch ·şÎñÆ÷Æô¶¯ÓÚ [1m[33m127.0.0.1:80[0m
+2022-10-30T22:09:31Z <INFO:emu.grasscutter.server.game.GameServer> Grasscutter ÊÇÃâ·Ñ¿ªÔ´Èí¼ş£¬×ñÑ­ AGPL-3.0 license¡£
+	Èç¹ûÄãÊÇ¸¶·Ñ¹ºÂòµÄ£¬ÄÇÄãÒÑ¾­±»Æ­ÁË¡£
+	ÏîÄ¿µØÖ·£ºhttps://github.com/Grasscutters/Grasscutter
+2022-10-30T22:09:31Z <INFO:emu.grasscutter.server.game.GameServer> ÓÎÏ··şÎñÆ÷Æô¶¯ÓÚ [1m[33m127.0.0.1:22102[0m
+2022-10-30T22:09:31Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:09:31Z <INFO:snoobi.bignose.GiveArtifactSnoo> The Give Artifact plugin has been enabled.
+2022-10-30T22:09:31Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºopencommand-plugin
+2022-10-30T22:09:31Z <INFO:com.github.jie65535.opencommand.OpenCommandPlugin> [OpenCommand] Enabled
+2022-10-30T22:09:31Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºsetLevel
+2022-10-30T22:09:31Z <INFO:thorny.grasscutters.setLevel.setLevel> The setLevel plugin has been enabled.
+2022-10-30T22:09:31Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:09:31Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been enabled.
+2022-10-30T22:09:31Z <INFO:emu.grasscutter.Grasscutter> ¼ÓÔØÍê³É£¡ÊäÈë "help" ²é¿´ÃüÁîÁĞ±í
+2022-10-30T22:12:58Z <INFO:emu.grasscutter.Grasscutter> Press Ctrl-C again to shutdown.
+2022-10-30T22:13:05Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:13:05Z <INFO:snoobi.bignose.GiveArtifactSnoo> The GiveArt plugin died lol
+2022-10-30T22:13:05Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºopencommand-plugin
+2022-10-30T22:13:05Z <INFO:com.github.jie65535.opencommand.OpenCommandPlugin> [OpenCommand] Disabled
+2022-10-30T22:13:05Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºsetLevel
+2022-10-30T22:13:05Z <INFO:thorny.grasscutters.setLevel.setLevel> How could you do this to me... setLevel has been disabled.
+2022-10-30T22:13:05Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:13:05Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been disabled.
+2022-10-30T22:13:30Z <INFO:emu.grasscutter.Grasscutter> config.json could not be found. Generating a default configuration ...
+2022-10-30T22:13:30Z <INFO:emu.grasscutter.Grasscutter> ÕıÔÚÆô¶¯ Grasscutter...
+2022-10-30T22:13:30Z <INFO:emu.grasscutter.Grasscutter> ÓÎÏ·°æ±¾£º3.1.0
+2022-10-30T22:13:30Z <INFO:emu.grasscutter.Grasscutter> Grasscutter °æ±¾£º1.4.3-dev-855d3182
+2022-10-30T22:13:31Z <INFO:emu.grasscutter.data.ResourceLoader> ÕıÔÚ¼ÓÔØ resources...
+2022-10-30T22:13:33Z <INFO:emu.grasscutter.data.ResourceLoader> Íê³É¼ÓÔØ resources¡£
+2022-10-30T22:13:33Z <INFO:emu.grasscutter.utils.Language> Loading cached TextMaps
+2022-10-30T22:13:33Z <INFO:emu.grasscutter.tools.Tools> GM Handbooks generated!
+2022-10-30T22:13:35Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:13:35Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºopencommand-plugin
+2022-10-30T22:13:35Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºsetLevel
+2022-10-30T22:13:35Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:13:35Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been loaded.
+2022-10-30T22:13:35Z <INFO:emu.grasscutter.server.http.HttpServer> [Dispatch] Dispatch ·şÎñÆ÷Æô¶¯ÓÚ [1m[33m127.0.0.1:443[0m
+2022-10-30T22:13:35Z <INFO:emu.grasscutter.server.game.GameServer> Grasscutter ÊÇÃâ·Ñ¿ªÔ´Èí¼ş£¬×ñÑ­ AGPL-3.0 license¡£
+	Èç¹ûÄãÊÇ¸¶·Ñ¹ºÂòµÄ£¬ÄÇÄãÒÑ¾­±»Æ­ÁË¡£
+	ÏîÄ¿µØÖ·£ºhttps://github.com/Grasscutters/Grasscutter
+2022-10-30T22:13:35Z <INFO:emu.grasscutter.server.game.GameServer> ÓÎÏ··şÎñÆ÷Æô¶¯ÓÚ [1m[33m127.0.0.1:22102[0m
+2022-10-30T22:13:35Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:13:35Z <INFO:snoobi.bignose.GiveArtifactSnoo> The Give Artifact plugin has been enabled.
+2022-10-30T22:13:35Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºopencommand-plugin
+2022-10-30T22:13:35Z <INFO:com.github.jie65535.opencommand.OpenCommandPlugin> [OpenCommand] Enabled
+2022-10-30T22:13:35Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºsetLevel
+2022-10-30T22:13:35Z <INFO:thorny.grasscutters.setLevel.setLevel> The setLevel plugin has been enabled.
+2022-10-30T22:13:35Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:13:35Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been enabled.
+2022-10-30T22:13:35Z <INFO:emu.grasscutter.Grasscutter> ¼ÓÔØÍê³É£¡ÊäÈë "help" ²é¿´ÃüÁîÁĞ±í
+2022-10-30T22:14:05Z <INFO:emu.grasscutter.Grasscutter> Press Ctrl-C again to shutdown.
+2022-10-30T22:14:05Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:14:05Z <INFO:snoobi.bignose.GiveArtifactSnoo> The GiveArt plugin died lol
+2022-10-30T22:14:05Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºopencommand-plugin
+2022-10-30T22:14:05Z <INFO:com.github.jie65535.opencommand.OpenCommandPlugin> [OpenCommand] Disabled
+2022-10-30T22:14:05Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºsetLevel
+2022-10-30T22:14:05Z <INFO:thorny.grasscutters.setLevel.setLevel> How could you do this to me... setLevel has been disabled.
+2022-10-30T22:14:05Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:14:05Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been disabled.
+2022-10-30T22:16:20Z <INFO:emu.grasscutter.Grasscutter> ÕıÔÚÆô¶¯ Grasscutter...
+2022-10-30T22:16:20Z <INFO:emu.grasscutter.Grasscutter> ÓÎÏ·°æ±¾£º3.1.0
+2022-10-30T22:16:20Z <INFO:emu.grasscutter.Grasscutter> Grasscutter °æ±¾£º1.4.3-dev-855d3182
+2022-10-30T22:16:20Z <INFO:emu.grasscutter.data.ResourceLoader> ÕıÔÚ¼ÓÔØ resources...
+2022-10-30T22:16:22Z <INFO:emu.grasscutter.data.ResourceLoader> Íê³É¼ÓÔØ resources¡£
+2022-10-30T22:16:22Z <INFO:emu.grasscutter.utils.Language> Loading cached TextMaps
+2022-10-30T22:16:23Z <INFO:emu.grasscutter.tools.Tools> GM Handbooks generated!
+2022-10-30T22:16:24Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:16:24Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºopencommand-plugin
+2022-10-30T22:16:24Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºsetLevel
+2022-10-30T22:16:24Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:16:24Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been loaded.
+2022-10-30T22:16:25Z <INFO:emu.grasscutter.server.http.HttpServer> [Dispatch] Dispatch ·şÎñÆ÷Æô¶¯ÓÚ [1m[33m127.0.0.1:443[0m
+2022-10-30T22:16:25Z <INFO:emu.grasscutter.server.game.GameServer> Grasscutter ÊÇÃâ·Ñ¿ªÔ´Èí¼ş£¬×ñÑ­ AGPL-3.0 license¡£
+	Èç¹ûÄãÊÇ¸¶·Ñ¹ºÂòµÄ£¬ÄÇÄãÒÑ¾­±»Æ­ÁË¡£
+	ÏîÄ¿µØÖ·£ºhttps://github.com/Grasscutters/Grasscutter
+2022-10-30T22:16:25Z <INFO:emu.grasscutter.server.game.GameServer> ÓÎÏ··şÎñÆ÷Æô¶¯ÓÚ [1m[33m127.0.0.1:22102[0m
+2022-10-30T22:16:25Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:16:25Z <INFO:snoobi.bignose.GiveArtifactSnoo> The Give Artifact plugin has been enabled.
+2022-10-30T22:16:25Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºopencommand-plugin
+2022-10-30T22:16:25Z <INFO:com.github.jie65535.opencommand.OpenCommandPlugin> [OpenCommand] Enabled
+2022-10-30T22:16:25Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºsetLevel
+2022-10-30T22:16:25Z <INFO:thorny.grasscutters.setLevel.setLevel> The setLevel plugin has been enabled.
+2022-10-30T22:16:25Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:16:25Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been enabled.
+2022-10-30T22:16:25Z <INFO:emu.grasscutter.Grasscutter> ¼ÓÔØÍê³É£¡ÊäÈë "help" ²é¿´ÃüÁîÁĞ±í
+2022-10-30T22:17:05Z <INFO:emu.grasscutter.server.http.dispatch.RegionHandler> [Dispatch] Client 127.0.0.1 request: query_region_list
+2022-10-30T22:17:13Z <INFO:emu.grasscutter.auth.DefaultAuthenticators$PasswordAuthenticator> [Dispatch] ¿Í»§¶Ë 127.0.0.1 µÇÂ¼Ê§°Ü£ºÕËºÅ²»´æÔÚ
+2022-10-30T22:17:13Z <INFO:emu.grasscutter.server.http.dispatch.DispatchHandler> [Dispatch] ¿Í»§¶Ë 127.0.0.1 ÕıÔÚ³¢ÊÔµÇÂ¼
+2022-10-30T22:18:28Z <INFO:emu.grasscutter.command.CommandHandler> ÒÑ´´½¨ UID Îª 127464330 µÄÕËºÅ¡£
+2022-10-30T22:20:23Z <INFO:emu.grasscutter.Grasscutter> Press Ctrl-C again to shutdown.
+2022-10-30T22:20:24Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:20:24Z <INFO:snoobi.bignose.GiveArtifactSnoo> The GiveArt plugin died lol
+2022-10-30T22:20:24Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºopencommand-plugin
+2022-10-30T22:20:24Z <INFO:com.github.jie65535.opencommand.OpenCommandPlugin> [OpenCommand] Disabled
+2022-10-30T22:20:24Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºsetLevel
+2022-10-30T22:20:24Z <INFO:thorny.grasscutters.setLevel.setLevel> How could you do this to me... setLevel has been disabled.
+2022-10-30T22:20:24Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:20:24Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been disabled.
+2022-10-30T22:21:03Z <INFO:emu.grasscutter.Grasscutter> ÕıÔÚÆô¶¯ Grasscutter...
+2022-10-30T22:21:03Z <INFO:emu.grasscutter.Grasscutter> ÓÎÏ·°æ±¾£º3.1.0
+2022-10-30T22:21:03Z <INFO:emu.grasscutter.Grasscutter> Grasscutter °æ±¾£º1.4.3-dev-855d3182
+2022-10-30T22:21:03Z <INFO:emu.grasscutter.data.ResourceLoader> ÕıÔÚ¼ÓÔØ resources...
+2022-10-30T22:21:05Z <INFO:emu.grasscutter.data.ResourceLoader> Íê³É¼ÓÔØ resources¡£
+2022-10-30T22:21:05Z <INFO:emu.grasscutter.utils.Language> Loading cached TextMaps
+2022-10-30T22:21:06Z <INFO:emu.grasscutter.tools.Tools> GM Handbooks generated!
+2022-10-30T22:21:07Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:21:07Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºopencommand-plugin
+2022-10-30T22:21:07Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºsetLevel
+2022-10-30T22:21:07Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:21:07Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been loaded.
+2022-10-30T22:21:08Z <INFO:emu.grasscutter.server.http.HttpServer> [Dispatch] Dispatch ·şÎñÆ÷Æô¶¯ÓÚ [1m[33m127.0.0.1:443[0m
+2022-10-30T22:21:08Z <INFO:emu.grasscutter.server.game.GameServer> Grasscutter ÊÇÃâ·Ñ¿ªÔ´Èí¼ş£¬×ñÑ­ AGPL-3.0 license¡£
+	Èç¹ûÄãÊÇ¸¶·Ñ¹ºÂòµÄ£¬ÄÇÄãÒÑ¾­±»Æ­ÁË¡£
+	ÏîÄ¿µØÖ·£ºhttps://github.com/Grasscutters/Grasscutter
+2022-10-30T22:21:08Z <INFO:emu.grasscutter.server.game.GameServer> ÓÎÏ··şÎñÆ÷Æô¶¯ÓÚ [1m[33m127.0.0.1:22102[0m
+2022-10-30T22:21:08Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:21:08Z <INFO:snoobi.bignose.GiveArtifactSnoo> The Give Artifact plugin has been enabled.
+2022-10-30T22:21:08Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºopencommand-plugin
+2022-10-30T22:21:08Z <INFO:com.github.jie65535.opencommand.OpenCommandPlugin> [OpenCommand] Enabled
+2022-10-30T22:21:08Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºsetLevel
+2022-10-30T22:21:08Z <INFO:thorny.grasscutters.setLevel.setLevel> The setLevel plugin has been enabled.
+2022-10-30T22:21:08Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:21:08Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been enabled.
+2022-10-30T22:21:08Z <INFO:emu.grasscutter.Grasscutter> ¼ÓÔØÍê³É£¡ÊäÈë "help" ²é¿´ÃüÁîÁĞ±í
+2022-10-30T22:24:04Z <INFO:emu.grasscutter.Grasscutter> Press Ctrl-C again to shutdown.
+2022-10-30T22:24:06Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:24:06Z <INFO:snoobi.bignose.GiveArtifactSnoo> The GiveArt plugin died lol
+2022-10-30T22:24:06Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºopencommand-plugin
+2022-10-30T22:24:06Z <INFO:com.github.jie65535.opencommand.OpenCommandPlugin> [OpenCommand] Disabled
+2022-10-30T22:24:06Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºsetLevel
+2022-10-30T22:24:06Z <INFO:thorny.grasscutters.setLevel.setLevel> How could you do this to me... setLevel has been disabled.
+2022-10-30T22:24:06Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:24:06Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been disabled.
+2022-10-30T22:24:23Z <INFO:emu.grasscutter.Grasscutter> config.json could not be found. Generating a default configuration ...
+2022-10-30T22:24:23Z <INFO:emu.grasscutter.Grasscutter> ÕıÔÚÆô¶¯ Grasscutter...
+2022-10-30T22:24:23Z <INFO:emu.grasscutter.Grasscutter> ÓÎÏ·°æ±¾£º3.1.0
+2022-10-30T22:24:23Z <INFO:emu.grasscutter.Grasscutter> Grasscutter °æ±¾£º1.4.3-dev-855d3182
+2022-10-30T22:24:23Z <INFO:emu.grasscutter.data.ResourceLoader> ÕıÔÚ¼ÓÔØ resources...
+2022-10-30T22:24:25Z <INFO:emu.grasscutter.data.ResourceLoader> Íê³É¼ÓÔØ resources¡£
+2022-10-30T22:24:25Z <INFO:emu.grasscutter.utils.Language> Loading cached TextMaps
+2022-10-30T22:24:26Z <INFO:emu.grasscutter.tools.Tools> GM Handbooks generated!
+2022-10-30T22:24:27Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:24:28Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºopencommand-plugin
+2022-10-30T22:24:28Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºsetLevel
+2022-10-30T22:24:28Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ¼ÓÔØ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:24:28Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been loaded.
+2022-10-30T22:24:28Z <INFO:emu.grasscutter.server.http.HttpServer> [Dispatch] Dispatch ·şÎñÆ÷Æô¶¯ÓÚ [1m[33m127.0.0.1:443[0m
+2022-10-30T22:24:28Z <INFO:emu.grasscutter.server.game.GameServer> Grasscutter ÊÇÃâ·Ñ¿ªÔ´Èí¼ş£¬×ñÑ­ AGPL-3.0 license¡£
+	Èç¹ûÄãÊÇ¸¶·Ñ¹ºÂòµÄ£¬ÄÇÄãÒÑ¾­±»Æ­ÁË¡£
+	ÏîÄ¿µØÖ·£ºhttps://github.com/Grasscutters/Grasscutter
+2022-10-30T22:24:28Z <INFO:emu.grasscutter.server.game.GameServer> ÓÎÏ··şÎñÆ÷Æô¶¯ÓÚ [1m[33m127.0.0.1:22102[0m
+2022-10-30T22:24:28Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T22:24:28Z <INFO:snoobi.bignose.GiveArtifactSnoo> The Give Artifact plugin has been enabled.
+2022-10-30T22:24:28Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºopencommand-plugin
+2022-10-30T22:24:28Z <INFO:com.github.jie65535.opencommand.OpenCommandPlugin> [OpenCommand] Enabled
+2022-10-30T22:24:28Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºsetLevel
+2022-10-30T22:24:28Z <INFO:thorny.grasscutters.setLevel.setLevel> The setLevel plugin has been enabled.
+2022-10-30T22:24:28Z <INFO:emu.grasscutter.plugin.PluginManager> ÆôÓÃ²å¼ş£ºSwitch Element Plugin
+2022-10-30T22:24:28Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been enabled.
+2022-10-30T22:24:28Z <INFO:emu.grasscutter.Grasscutter> ¼ÓÔØÍê³É£¡ÊäÈë "help" ²é¿´ÃüÁîÁĞ±í
+2022-10-30T22:25:01Z <INFO:emu.grasscutter.server.http.dispatch.RegionHandler> [Dispatch] Client 127.0.0.1 request: query_region_list
+2022-10-30T22:25:07Z <INFO:emu.grasscutter.auth.DefaultAuthenticators$PasswordAuthenticator> [Dispatch] ¿Í»§¶Ë 127.0.0.1 ÒÑµÇÂ¼£¬UID Îª 10001
+2022-10-30T22:25:07Z <INFO:emu.grasscutter.server.http.dispatch.DispatchHandler> [Dispatch] ¿Í»§¶Ë 127.0.0.1 ÕıÔÚ³¢ÊÔµÇÂ¼
+2022-10-30T22:25:08Z <INFO:emu.grasscutter.auth.DefaultAuthenticators$SessionKeyAuthenticator> [Dispatch] ¿Í»§¶Ë 127.0.0.1 ³É¹¦½»»» token
+2022-10-30T22:25:08Z <INFO:emu.grasscutter.server.http.dispatch.DispatchHandler> [Dispatch] ¿Í»§¶Ë 127.0.0.1 ÕıÔÚ³¢ÊÔµÇÂ¼
+2022-10-30T22:25:08Z <INFO:emu.grasscutter.server.http.dispatch.RegionHandler> Client 127.0.0.1 request: query_cur_region/os_usa
+2022-10-30T22:25:18Z <INFO:emu.grasscutter.server.game.GameSession> ¿Í»§¶Ë /127.0.0.1:63665 ÒÑÁ¬½Ó¡£
+2022-10-30T22:26:49Z <INFO:emu.grasscutter.game.activity.ActivityManager> Enable 1 activities.
+2022-10-30T22:30:16Z <INFO:com.github.jie65535.opencommand.OpenCommandHandler> Player 127464330 has passed the verification, ip: 127.0.0.1
+2022-10-30T23:13:39Z <INFO:emu.grasscutter.game.home.GameHome> Set player 127464330 home 2001 to initial setting
+2022-10-30T23:13:39Z <INFO:emu.grasscutter.game.home.GameHome> Set player 127464330 home 2202 to initial setting
+2022-10-30T23:53:08Z <INFO:emu.grasscutter.server.game.GameSession> ¿Í»§¶Ë /127.0.0.1:63665 ÒÑ¶Ï¿ªÁ¬½Ó¡£
+2022-10-30T23:53:10Z <INFO:emu.grasscutter.auth.DefaultAuthenticators$TokenAuthenticator> [Dispatch] ¿Í»§¶Ë 127.0.0.1 ÕıÔÚ³¢ÊÔÍ¨¹ı token µÇÂ¼
+2022-10-30T23:53:10Z <INFO:emu.grasscutter.auth.DefaultAuthenticators$TokenAuthenticator> [Dispatch] ¿Í»§¶Ë 127.0.0.1 ÒÑÍ¨¹ı token µÇÂ¼£¬UID Îª 10001
+2022-10-30T23:53:10Z <INFO:emu.grasscutter.server.http.dispatch.DispatchHandler> [Dispatch] ¿Í»§¶Ë 127.0.0.1 ÕıÔÚ³¢ÊÔµÇÂ¼
+2022-10-30T23:53:10Z <INFO:emu.grasscutter.auth.DefaultAuthenticators$SessionKeyAuthenticator> [Dispatch] ¿Í»§¶Ë 127.0.0.1 ³É¹¦½»»» token
+2022-10-30T23:53:10Z <INFO:emu.grasscutter.server.http.dispatch.DispatchHandler> [Dispatch] ¿Í»§¶Ë 127.0.0.1 ÕıÔÚ³¢ÊÔµÇÂ¼
+2022-10-30T23:53:10Z <INFO:emu.grasscutter.server.http.dispatch.RegionHandler> Client 127.0.0.1 request: query_cur_region/os_usa
+2022-10-30T23:53:29Z <INFO:emu.grasscutter.Grasscutter> Press Ctrl-C again to shutdown.
+2022-10-30T23:53:29Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºGiveArtifactSnoo
+2022-10-30T23:53:29Z <INFO:snoobi.bignose.GiveArtifactSnoo> The GiveArt plugin died lol
+2022-10-30T23:53:29Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºopencommand-plugin
+2022-10-30T23:53:29Z <INFO:com.github.jie65535.opencommand.OpenCommandPlugin> [OpenCommand] Disabled
+2022-10-30T23:53:29Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºsetLevel
+2022-10-30T23:53:29Z <INFO:thorny.grasscutters.setLevel.setLevel> How could you do this to me... setLevel has been disabled.
+2022-10-30T23:53:29Z <INFO:emu.grasscutter.plugin.PluginManager> ÕıÔÚ½ûÓÃ²å¼ş£ºSwitch Element Plugin
+2022-10-30T23:53:29Z <INFO:test.gc.switchele.Switchele> The SwitchElement has been disabled.

@@ -32,56 +32,52 @@
 # Ignore Gradle project-specific cache directory
 .gradle
 
-# Ignore Gradle build output directory
-build/
-out/
-
 # Ignore Gradle properties
-gradle.properties
+#gradle.properties
 
 # Eclipse
-.project
-.classpath
-.settings
-.metadata
-.properties
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-.loadpath
-.recommenders
+#.project
+#.classpath
+#.settings
+#.metadata
+#.properties
+#bin/
+#tmp/
+#*.tmp
+#*.bak
+#*.swp
+#*~.nib
+#.loadpath
+#.recommenders
 
 # VSCode
-.vscode
+#.vscode
 
 # Grasscutter
-/cache
-/resources
-/logs
-/plugins
-/data
-/keys
-/language
-/languages
-/proto
+#/cache
+#/resources
+#/logs
+#/plugins
+#/data
+#/keys
+#/language
+#/languages
+#/proto
 
-/*.jar
-/*.sh
+#/*.jar
+#/*.sh
 
-GM Handbook*.txt
-config.json
-mitmdump.exe
-mongod.exe
+#GM Handbook*.txt
+#config.json
+#mitmdump.exe
+#mongod.exe
 
-gacha-mapping.js
-mappings.js
-BuildConfig.java
+#gacha-mapping.js
+#mappings.js
+#BuildConfig.java
 
 # lombok
-/.apt_generated/
+#/.apt_generated/
 
 # macOS
 .DS_Store
